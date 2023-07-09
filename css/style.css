@@ -3,7 +3,9 @@
     color: #fff !important;
 }
 
-
+.p-4 p {
+    color: #505050;
+}
 /******* Bootstrap Theming ********/
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
