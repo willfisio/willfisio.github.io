@@ -84,6 +84,7 @@
         loop: true,
         dots: false,
         nav : false,
+        rewind : true,
         responsive: {
             0:{
                 items:1
