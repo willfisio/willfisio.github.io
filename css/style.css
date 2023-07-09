@@ -12,7 +12,9 @@
 .display-3 span{
     font-size: 1.5rem;
 }
-
+.testimonial-carousel.pricing-carousel .owl-dots {
+    text-align: center;
+}
 
 .clock1, .clock2{
     margin: 0 0.5rem !important;
