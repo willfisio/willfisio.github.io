@@ -7,7 +7,7 @@
     color: #505050;
 }
 
-.pricing-carousel .owl-carousel .owl-stage {
+.owl-carousel.pricing-carousel .owl-stage {
     transform: none !important;
 }
 
