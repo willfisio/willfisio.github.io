@@ -30,6 +30,10 @@
     background-color: transparent !important;
 }
 
+.container.pt-5 .row {
+    justify-content: center;
+}
+
 /******* Bootstrap Theming ********/
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
