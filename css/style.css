@@ -19,11 +19,15 @@
     height: auto;
     background-image: url(https://willfisio.weebly.com/uploads/1/4/6/3/146330638/background-images/338236349.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: top left;
     background-color: transparent;
     background-size: contain;
     width: 100%;
     vertical-align: middle;
+}
+
+.hours-text.bg-light.p-4.p-lg-5.my-lg-5 {
+    background-color: transparent !important;
 }
 
 /******* Bootstrap Theming ********/
