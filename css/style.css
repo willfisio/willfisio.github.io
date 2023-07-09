@@ -1,4 +1,13 @@
 /* W */
+@media (min-width: 992px){
+    .horariofunc{
+        background-size: initial;
+        background-position: center left;
+    }
+}
+
+
+
 .clock1, .clock2{
     margin: 0 0.5rem !important;
 }
