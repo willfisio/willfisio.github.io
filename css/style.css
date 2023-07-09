@@ -6,6 +6,15 @@
 .p-4 p {
     color: #505050;
 }
+
+.pricing-carousel .owl-carousel .owl-stage {
+    transform: none !important;
+}
+
+.d-flex.align-items-center.justify-content-between.border-bottom.border-primary.p-4{
+    padding: 1.5rem 1rem !important;
+}
+
 /******* Bootstrap Theming ********/
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
@@ -9236,7 +9245,7 @@ button.bg-dark:focus {
 }
 
 .text-uppercase {
-  text-transform: uppercase !important;
+  font-size: 1rem;
 }
 
 .text-capitalize {
