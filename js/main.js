@@ -83,7 +83,7 @@
         margin: 30,
         loop: false,
         dots: true,
-        nav : true,
+        nav : false,
         rewind : true,
         responsive: {
             0:{
