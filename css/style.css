@@ -1,3 +1,9 @@
+/* W */
+.btn.btn-primary:hover i {
+    color: #fff !important;
+}
+
+
 /******* Bootstrap Theming ********/
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
@@ -9480,7 +9486,7 @@ h6,
 
 .btn.btn-primary,
 .btn.btn-secondary {
-  color: #FFFFFF !important;
+  color: #505050 !important;
 }
 
 .btn-square {
