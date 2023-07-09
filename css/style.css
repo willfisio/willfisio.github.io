@@ -1,4 +1,13 @@
 /* W */
+.clock1, .clock2{
+    margin: 0 0.5rem !important;
+}
+.clock1::before{
+    content: "\1f556";
+}
+.clock2::before{
+    content: "\1f558";
+}
 .btn.btn-primary:hover i {
     color: #fff !important;
 }
