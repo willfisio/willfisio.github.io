@@ -81,7 +81,7 @@
         autoplay: true,
         smartSpeed: 1500,
         margin: 30,
-        loop: true,
+        loop: false,
         dots: false,
         nav : false,
         rewind : true,
