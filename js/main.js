@@ -78,12 +78,14 @@
 
     // Pricing carousel
     $(".pricing-carousel").owlCarousel({
-        autoplay: true,
+        autoplay: false,
         smartSpeed: 1500,
         margin: 30,
-        loop: true,
+        loop: false,
         dots: false,
         nav : false,
+        touchDrag : false,
+        pullDrag: false,
         responsive: {
             0:{
                 items:1
