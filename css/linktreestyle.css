@@ -20,11 +20,11 @@
   --image_height: 140px;
 
   /* You can change the colors of the title and description section by typing the color codes. */
-  --title_color: #fff;
-  --description_color: #fff;
+  --title_color: #211E1C;
+  --description_color: #211E1C;
 
   /* You can change the colors of social media icons by changing the color code. */
-  --svg_color: #fff;
+  --svg_color: #211E1C;
 
   /* You can change the background, text color and active color of the menu by changing the color codes. */
   --menu_background_color: #1d1e24;
@@ -32,9 +32,10 @@
   --menu_active_text_color: #d7e04f;
 
   /* You can change the button's background, text color and active color by changing the color codes. */
-  --button_background_color: #1d1e24;
-  --button_text_color: #fff;
-  --button_text_hover_color: #d7e04f;
+  --button_background_color: #d9fff4;
+  --button_text_color: #505050;
+  --button_text_hover_color: #ffffff;
+  --button_text_hover_bg: #565656;
 
   /* You can change the background, text color and active color of the text field by changing the color codes. */
   --textarea_background_color: #1d1e24;
@@ -53,11 +54,12 @@ body {
   font: var(--font_size) var(--font_family);
   font-weight: 400;
   line-height: 1.5;
-  background: var(--background_color) var(../img/stone.png) no-repeat center;
+  background: url(../img/stone.png) no-repeat left center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+    background-color: #fff;
 }
 
 .flex_column_center {
@@ -219,6 +221,7 @@ main {
 .main_small_button_item:hover,
 .main_button_item:hover {
   color: var(--button_text_hover_color);
+   background-color: var(--button_text_hover_bg);
   transform: scale(1.02);
   transition: 0.10s ease;
 }
