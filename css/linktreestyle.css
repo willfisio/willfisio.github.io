@@ -55,6 +55,8 @@
     height: 14.1em;
     border: 2px solid #e7e7e7;
     overflow: hidden;
+    margin: 2em !important;
+        background: #fff;
 }
 
 .header_svg_item img {
