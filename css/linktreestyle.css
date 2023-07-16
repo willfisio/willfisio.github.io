@@ -49,15 +49,27 @@
 }
 
 /* Basic Codes */
+
 .qrcodes .header_svg_item {
     width: 11.1em;
     height: 14.1em;
     border: 2px solid #505050;
 }
+
+.header_svg_item img {
+    width: 100%;
+}
+
 .qrcodes p {
     text-align: center;
     color: var(--button_text_color);
     text-decoration: none;
+}
+.qrcodes a {
+    text-decoration: none;
+}
+.qrcodes a:hover p {
+    color: #fff;
 }
 body {
   font: var(--font_size) var(--font_family);
