@@ -120,11 +120,14 @@ body {
   width: 3.1em;
   height: 3.1em;
   cursor: pointer;
+    margin: 0 2em;
+    text-align: right;
 }
 
 .header_svg_item + .header_svg_item {
-  margin-left: 2em;
+  margin: 0 2em;
     text-align: right;
+        border-radius: 6px;
 }
 
 .header_svg_item svg, path {
