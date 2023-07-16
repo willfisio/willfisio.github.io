@@ -124,6 +124,7 @@ body {
 
 .header_svg_item + .header_svg_item {
   margin-left: 2em;
+    text-align: right;
 }
 
 .header_svg_item svg, path {
@@ -166,6 +167,14 @@ body {
 }
 
 /* Menu Container Codes */
+.header_svg_item:hover {
+    background: #3c3c3c;
+    border: 2px solid #3c3c3c;
+}
+
+.header_svg_item:hover path {
+    fill: #bdf3e3;
+}
 
 main {
   margin-bottom: auto;
@@ -203,6 +212,7 @@ main {
   min-height: 3.7em;
   text-align: center;
   cursor: pointer;
+  border: 2px solid #bdf3e3;
 }
 
 .main_small_button_list {
