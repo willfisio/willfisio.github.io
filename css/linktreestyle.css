@@ -51,12 +51,12 @@
 /* Basic Codes */
 
 .qrcodes .header_svg_item {
-    width: 11.1em;
-    height: 14.1em;
+    width: 15.1em;
+    height: 17.4em;
     border: 2px solid #e7e7e7;
     overflow: hidden;
-    margin: 2em !important;
-        background: #fff;
+    margin: 1em !important;
+    background: #fff;
 }
 
 .header_svg_item img {
