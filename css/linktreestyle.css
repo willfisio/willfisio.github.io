@@ -12,7 +12,7 @@
   --background_image: url("../img/wallpaper.png");
 
   /* You can change the frame thickness and color of the picture by typing the number of pixels and the color code. */
-  --image_border_color: #1f232e;
+  --image_border_color: #e7e7e7;
   --image_border_px: 3px;
 
   /* You can change the width and size of the picture by typing the number of pixels. */
@@ -53,7 +53,7 @@
 .qrcodes .header_svg_item {
     width: 11.1em;
     height: 14.1em;
-    border: 2px solid #505050;
+    border: 2px solid #e7e7e7;
     overflow: hidden;
 }
 
@@ -221,7 +221,7 @@ main {
   align-items: center;
   justify-content: center;
   color: var(--button_text_color);
-  border-bottom: solid 1px;
+  border-bottom: solid 1px #e7e7e7;
   width: 41em;
   margin-top: 1em;
   padding: 0.8em;
