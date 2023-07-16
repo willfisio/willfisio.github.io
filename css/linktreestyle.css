@@ -2,7 +2,7 @@
 :root {
 
   /* You can change the font family in the whole design here. (You need to add the font family to the codes.) */
-  --font_family: 'Inter', sans-serif;
+  --font_family: 'Poppins', sans-serif;
 
   /* You can change the font size here, is proportional to all texts. */
   --font_size: 16px;
@@ -113,7 +113,7 @@ body {
 /* Social Media Icons Codes */
 
 .header_svg_list {
-  padding-top: 1em;
+  padding-top: 2em;
 }
 
 .header_svg_item {
@@ -123,10 +123,10 @@ body {
 }
 
 .header_svg_item + .header_svg_item {
-  margin-left: 1em;
+  margin-left: 2em;
 }
 
-.header_svg_item svg {
+.header_svg_item svg, path {
   fill: var(--svg_color);
 }
 
@@ -181,11 +181,12 @@ main {
 }
 
 .main_text_item {
+    background-color: #ffffffd9;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--button_text_color);
-  background-color: var(--button_background_color);
+  border-bottom: solid 1px;
   width: 41em;
   margin-top: 1em;
   padding: 0.8em;
