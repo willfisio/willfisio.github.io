@@ -1,0 +1,18 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:William Otavio Souto
+N;CHARSET=UTF-8:Souto;William;Otavio;;
+NICKNAME;CHARSET=UTF-8:Will
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:contato@drwill.com.br
+TEL;TYPE=CELL:11974237159
+TEL;TYPE=WORK,VOICE:11974237159
+LABEL;CHARSET=UTF-8;TYPE=WORK:Instituto fisiologic e Espaço Hayanna
+ADR;CHARSET=UTF-8;TYPE=WORK:;;;Santo André;SP;;Brazil
+ROLE;CHARSET=UTF-8:Terapeuta manual\, integrativo e fisioterapia
+ORG;CHARSET=UTF-8:Dr. Will
+URL;type=WORK;CHARSET=UTF-8:https://drwill.com.br/
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/willsouto/
+X-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/dr.will/
+X-SOCIALPROFILE;TYPE=WhatsApp:https://api.whatsapp.com/send?phone=5511974237159&text=Ol%C3%A1%20Will%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es
+REV:2023-07-16T12:59:08.728Z
+END:VCARD
