@@ -49,7 +49,12 @@
     margin: auto;
 }
 .main_text_item.contatolist {
-    display: block;
+    display: inline-block;
+    width: auto;
+    min-height: auto;
+    margin: 1em !important;
+    border: 2px solid #e7e7e7;
+    padding: 1em;
 }
 .main_text_item.contatolist svg {
     width: 20px;
