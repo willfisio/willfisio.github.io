@@ -9,6 +9,11 @@
     }
 }
 
+.contatocont iframe{
+    max-width: 100%;
+    
+}
+
 .logo{
     max-width: 50px;
     width: 100%;
