@@ -41,6 +41,15 @@
     vertical-align: middle;
 
 }
+.contatopage img {
+    max-width: 237px;
+    margin: 4px auto;
+    text-align: center;
+    display: block;
+}
+.contatopage .header_svg_item {
+    width: 16.1em;
+}
 .contatolist a:hover svg{
     background: #3c3c3c;
     border: 2px solid #3c3c3c;
