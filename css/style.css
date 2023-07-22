@@ -30,6 +30,11 @@
     border-radius: 12px;
 }
 
+.contatocont a img {
+    vertical-align: middle;
+
+}
+
 .logo{
     max-width: 50px;
     width: 100%;
