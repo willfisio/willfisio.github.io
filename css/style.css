@@ -132,7 +132,7 @@ fill: #bdf3e3 !important;
     background-repeat: no-repeat;
     background-position: top left;
     background-color: transparent;
-    background-size: contain;
+    background-size: 45%;
     width: 100%;
     vertical-align: middle;
 }
