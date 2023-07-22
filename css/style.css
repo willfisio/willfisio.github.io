@@ -9,6 +9,13 @@
     }
 }
 
+.main_text_item p {
+    display: block;
+    width: 100%;
+    position: initial;
+    padding: 12px;
+    margin: auto;
+}
 .contatocont {
     text-align: center;
 }
