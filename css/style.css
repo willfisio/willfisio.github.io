@@ -42,11 +42,18 @@
 
 }
 .main_text_item.contatolist p {
-    display: block;
+   display: block;
     width: 100%;
     position: initial;
     padding: 12px;
     margin: auto;
+}
+.main_text_item.contatolist {
+    display: block;
+}
+.main_text_item.contatolist svg {
+    width: 20px;
+    height: auto;
 }
 .logo{
     max-width: 50px;
