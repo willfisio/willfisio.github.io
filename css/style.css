@@ -47,7 +47,7 @@
     text-align: center;
     display: block;
 }
-.contatopage .header_svg_item {
+.qrcodes.contatopage .header_svg_item {
     width: 16.1em;
 }
 .contatolist a:hover svg{
@@ -55,7 +55,10 @@
     border: 2px solid #3c3c3c;
     border-radius: 6px;  
 }
-.contatolist a:hover svg path{
+.contatopage .header_svg_item {
+    width: 16.1em;
+}
+.main_text_item.contatolist a:hover svg path{
 fill: #bdf3e3 !important;
 }
 .main_text_item.contatolist p {
