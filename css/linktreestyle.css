@@ -49,7 +49,9 @@
 }
 
 /* Basic Codes */
-
+h1.header_h_item, h2.header_h_item {
+    font-weight: normal !important;
+}
 .qrcodes .header_svg_item {
     width: 15.1em;
     height: 17.4em;
