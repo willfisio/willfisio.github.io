@@ -41,7 +41,13 @@
     vertical-align: middle;
 
 }
-
+.main_text_item.contatolist p {
+    display: block;
+    width: 100%;
+    position: initial;
+    padding: 12px;
+    margin: auto;
+}
 .logo{
     max-width: 50px;
     width: 100%;
