@@ -9,9 +9,13 @@
     }
 }
 
-.contatocont iframe{
+.contatocont iframe {
     max-width: 100%;
-    
+}
+
+.contatocont a:hover img {
+    background: #fff;
+    border-radius: 12px;
 }
 
 .logo{
