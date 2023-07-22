@@ -9,10 +9,17 @@
     }
 }
 
-.navbar img{
+.logo{
     max-width: 50px;
+    width: 100%;
 }
 
+.lfooter{
+    max-width: 500px;
+    background: #ffffff9e;
+    border-radius: 12px;
+    width: 100%;
+}
 .display-3 span{
     font-size: 1.5rem;
 }
