@@ -80,7 +80,7 @@ body {
   font: var(--font_size) var(--font_family);
   font-weight: 400;
   line-height: 1.5;
-  background: url(../img/stone.png) no-repeat left center;
+  background: url(../img/stone.png) no-repeat left 5%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
