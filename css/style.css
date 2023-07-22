@@ -55,6 +55,11 @@
     width: 20px;
     height: auto;
 }
+
+.main_text_item.contatolist svg g path {
+    fill: #a9a9a9 !important;
+}
+
 .logo{
     max-width: 50px;
     width: 100%;
