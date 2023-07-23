@@ -19,7 +19,9 @@
 .contatocont {
     text-align: center;
 }
-
+.navbarcontact svg, path {
+    fill: #211e1c;
+}
 .contatocont a {
     max-width: 200px;
     margin: auto;
