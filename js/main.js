@@ -18,7 +18,13 @@
         $(window).resize(toggleNavbarMethod);
     });
     
-    
+    $( ".hoverdrop" ).hover(
+      function() {
+        $( this ).children(".dropdown-menu").addClass( "show" );
+      }, function() {
+        $( this ).children(".dropdown-menu").removeClass( "show" );
+      }
+    );
     
     
     // Back to top button
