@@ -22,6 +22,9 @@
 .navbarcontact svg, path {
     fill: #211e1c;
 }
+.layout-cell.layout-cell-9 {
+    padding: 12px;
+}
 .contatocont a {
     max-width: 200px;
     margin: auto;
