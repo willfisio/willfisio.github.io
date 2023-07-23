@@ -1,0 +1,25 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:William Otavio Souto
+N;CHARSET=UTF-8:Souto;William;Otavio;;
+NICKNAME;CHARSET=UTF-8:Will
+GENDER:M
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:contato@drwill.com.br
+EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:contato@drwill.com.br
+TEL;TYPE=CELL:11974237159
+TEL;TYPE=HOME,VOICE:11974237159
+TEL;TYPE=WORK,VOICE:11974237159
+LABEL;CHARSET=UTF-8;TYPE=HOME:Instituto fisiologic e Espaco Hayanna
+ADR;CHARSET=UTF-8;TYPE=HOME:;;Instituto fisiologic e Espaco Hayanna;Santo Andre;SP;;Brasil
+LABEL;CHARSET=UTF-8;TYPE=WORK:Instituto fisiologic e Espaco Hayanna
+ADR;CHARSET=UTF-8;TYPE=WORK:;;;Santo Andre;SP;;Brasil
+TITLE;CHARSET=UTF-8:Terapeuta e instrutor de pilates
+ORG;CHARSET=UTF-8:Will - Terapias manuais\, integrativas e pilates
+URL;CHARSET=UTF-8:https://drwill.com.br/
+URL;type=WORK;CHARSET=UTF-8:https://drwill.com.br/
+X-SOCIALPROFILE;TYPE=twitter:https://twitter.com/drwillsouto
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/willsouto/
+X-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/drwillsouto/
+X-SOCIALPROFILE;TYPE=Site:https://drwill.com.br/
+REV:2023-07-23T01:38:25.385Z
+END:VCARD
