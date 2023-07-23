@@ -58,7 +58,9 @@
     max-width: 100%;
     border-radius: 20px;
 }
-
+.layout-cell-11 .layout-cell-pad-5 {
+    padding-left: 12px;
+}
 .contatocont a:hover img {
     background: #fff;
     border-radius: 12px;
