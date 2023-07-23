@@ -13,8 +13,8 @@
     }
 }
 .carqm{
-         height: 160%;
-    object-position: 75% -13em;
+         height: 160% !important;
+    object-position: 75% -13em !important;
     }
    
 .team.position-relative.overflow-hidden.mb-5 {
