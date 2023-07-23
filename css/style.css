@@ -8,17 +8,11 @@
         font-size: 2.5rem !important;
     }
 }
-#header-carousel p.mx-md-5.px-5 {
-    margin-bottom: 9vw;
+#header-carousel .carousel-caption {
+    pointer-events: none;
 }
 #header-carousel .btn {
-    z-index: 1;
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    max-width: 120px;
-    bottom: 20%;
+    pointer-events: initial;
 }
 .hoverdrop {
     cursor: context-menu;
