@@ -37,6 +37,7 @@
 .precoscont img {
     max-width: 210px;
     border-radius: 12px;
+    background: #fff;
 }
 .nav-item.dropdown span::after {
     display: inline-block;
