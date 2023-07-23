@@ -24,6 +24,25 @@
     max-width: 200px;
     margin: auto;
 }
+.navbarcontact {
+    display: none;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.navbarcontact a {
+    position: relative;
+    display: inline-block;
+    margin: 12px 6px;
+}
+.navbarcontact a svg {
+    max-width: 30px;
+    max-height: 30px;
+    display: inline-block;
+}
 .navbarcontainer {
     border-bottom: 2px solid #e7e7e7;
 }
@@ -1991,6 +2010,9 @@ pre code {
 }
 
 @media (max-width: 991.98px) {
+    .navbarcontact{
+        display: flex !important;
+    }
   .table-responsive-lg {
     display: block;
     width: 100%;
@@ -4446,6 +4468,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-toggler {
+    border-radius: 6px;
   color: rgba(0, 0, 0, 0.5);
   border-color: rgba(0, 0, 0, 0.1);
 }
