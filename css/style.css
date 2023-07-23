@@ -11,6 +11,9 @@
 .hoverdrop {
     cursor: context-menu;
 }
+.precos img {
+    max-width: 200px;
+}
 .nav-item.dropdown span::after {
     display: inline-block;
     margin-left: 0.255em;
