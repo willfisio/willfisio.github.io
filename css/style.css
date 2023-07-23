@@ -8,6 +8,10 @@
         font-size: 2.5rem !important;
     }
 }
+.team.position-relative.overflow-hidden.mb-5 {
+    padding: 6px;
+    background: #a9a9a9;
+}
 #header-carousel .carousel-caption {
     pointer-events: none;
 }
