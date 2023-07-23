@@ -464,8 +464,14 @@ legend {
   legend {
     font-size: calc(1.275rem + 0.3vw) ;
   }
+ 
 }
 
+@media (max-width: 590px) {
+    #header-carousel p {
+        display: none;
+    }
+}
 progress {
   vertical-align: baseline;
 }
