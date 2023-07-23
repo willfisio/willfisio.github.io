@@ -8,7 +8,21 @@
         font-size: 2.5rem !important;
     }
 }
-
+.navbar-brand .img-fluid {
+    transition: background 2s;
+}
+.carousel-item.position-relative {
+    min-height: 80vh !important;
+}
+a.navbar-brand:hover img {
+    background: #fff;
+}
+.container-fluid * {
+    transition: background-color 0.5s, color 0.5s;
+}
+.navbar-nav a:hover {
+    text-decoration: overline;
+}
 .main_text_item p {
     display: block;
     width: 100%;
