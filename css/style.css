@@ -14,6 +14,9 @@
 .precos img {
     max-width: 200px;
 }
+.precoscont > div > div {
+    justify-content: center;
+}
 .nav-item.dropdown span::after {
     display: inline-block;
     margin-left: 0.255em;
