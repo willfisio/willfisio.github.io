@@ -29,6 +29,9 @@
     max-width: 200px;
     margin: auto;
 }
+.layout-cell b {
+    display: none;
+}
 .navbarcontact {
     display: none;
     flex-direction: column;
