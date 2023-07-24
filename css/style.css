@@ -16,7 +16,9 @@
          height: 160% !important;
     object-position: 75% -13em !important;
     }
-   
+.testimonial-carousel .owl-dot, .carousel-indicators li{
+    border-radius: 12px;
+}
 .team.position-relative.overflow-hidden.mb-5 {
     padding: 6px;
     background: #a9a9a9;
