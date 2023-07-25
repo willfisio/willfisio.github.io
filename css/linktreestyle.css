@@ -63,15 +63,17 @@ h1.header_h_item, h2.header_h_item {
 
 .header_svg_item img {
     width: 100%;
+    margin-bottom: 6px;
 }
 
 .qrcodes p {
     text-align: center;
     color: var(--button_text_color);
     text-decoration: none;
+        margin: auto;
 }
 .qrcodes a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .qrcodes a:hover p {
     color: #fff;
