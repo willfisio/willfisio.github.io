@@ -64,7 +64,6 @@
         loop: true,
         dots: false,
         nav : false,
-        center : true,
         responsive: {
             0:{
                 items:1
@@ -89,6 +88,7 @@
         loop: false,
         dots: false,
         nav : false,
+        center : true,
         responsive: {
             0:{
                 items:1
