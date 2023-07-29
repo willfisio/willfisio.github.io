@@ -12,6 +12,9 @@
         object-position: 75% -18em !important;
     }
 }
+.goldstar path {
+    fill: #f2d600;
+}
 .serviced-carousel .owl-stage {
     transform: none !important;
     margin: auto;
