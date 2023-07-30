@@ -12,6 +12,10 @@
         object-position: 75% -18em !important;
     }
 }
+.mainvideo{
+        width: 100%;
+    max-width: 279px;
+}
 .goldstar path {
     fill: #f2d600;
 }
