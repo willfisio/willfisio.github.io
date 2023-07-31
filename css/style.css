@@ -19,6 +19,7 @@
 .contatocont li {
     color: #757575;
     font-size: 0.9em;
+    font-weight: initial;
 }
 .mainvideo{
         width: 100%;
