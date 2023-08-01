@@ -12,6 +12,14 @@
         object-position: 75% -18em !important;
     }
 }
+.treemtext{
+        background-color: #ffffffd9;
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 0.3em;
+}
 .contatocont p {
     border-top: 1px solid #e7e7e7;
     padding-top: 16px;
