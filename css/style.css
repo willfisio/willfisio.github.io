@@ -11,6 +11,10 @@
         height: 179% !important;
         object-position: 75% -18em !important;
     }
+    .serviced-carousel .owl-stage {
+    transform: none !important;
+    margin: auto;
+}
 }
 .treemtext{
         background-color: #ffffffd9;
@@ -37,10 +41,7 @@
 .goldstar path {
     fill: #f2d600;
 }
-.serviced-carousel .owl-stage {
-    transform: none !important;
-    margin: auto;
-}
+
 .carqm{
          height: 160% !important;
     object-position: 75% -13em !important;
