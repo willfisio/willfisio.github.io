@@ -699,6 +699,12 @@ h6, .h6 {
   .display-1 {
     font-size: calc(1.725rem + 5.7vw) ;
   }
+    .tuiconp {
+            width: auto !important;
+    max-height: 200px;
+    margin: auto;
+    display: block;
+    }
 }
 
 .display-2 {
