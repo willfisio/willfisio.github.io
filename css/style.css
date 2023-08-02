@@ -11,9 +11,9 @@
         height: 179% !important;
         object-position: 75% -18em !important;
     }
-    .serviced-carousel .owl-stage {
+    /**.serviced-carousel .owl-stage {
     transform: none !important;
-    margin: auto;
+    margin: auto;**/
 }
 }
 .treemtext{
