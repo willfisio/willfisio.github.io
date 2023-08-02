@@ -83,9 +83,9 @@
         }
     });
     $(".serviced-carousel").owlCarousel({
-        autoplay: false,
+         autoplay: true,
         smartSpeed: 1500,
-        loop: false,
+        loop: true,
         dots: false,
         nav : false,
         center : true,
