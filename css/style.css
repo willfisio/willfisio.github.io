@@ -15,14 +15,17 @@
     transform: none !important;
     margin: auto;**/
 }
-}
-.treemtxt{
+
+.treemtxt {
         background-color: #ffffffd9;
     display: block;
     margin: auto;
     max-width: 400px;
     text-align: center;
     border-radius: 0.3em;
+}
+.treemtxt h1, .treemtxt h2 {
+    width: auto;
 }
 .contatocont p {
     border-top: 1px solid #e7e7e7;
