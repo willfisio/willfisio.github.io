@@ -16,11 +16,11 @@
     margin: auto;**/
 }
 }
-.treemtext{
+.treemtxt{
         background-color: #ffffffd9;
     display: block;
     margin: auto;
-    max-width: 600px;
+    max-width: 400px;
     text-align: center;
     border-radius: 0.3em;
 }
