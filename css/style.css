@@ -15,7 +15,22 @@
     transform: none !important;
     margin: auto;**/
 }
+.owl-carousel .owl-item article img {
+    height: 36px;
+    width: 36px;
+}
 
+.owl-carousel .owl-item article a {
+color: #1a73e8;
+}
+
+.vq72z {
+    font-size: 0.8em;
+}
+
+.gyKkFe.JhRJje.Fv38Af {
+    margin-top: 12px;
+}
 .treemtxt {
         background-color: #ffffffd9;
     display: block;
