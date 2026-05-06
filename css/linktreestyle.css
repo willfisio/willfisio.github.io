@@ -91,8 +91,13 @@ body {
     background-color: #fff;
     background-size: 40%;
 }
+.main_button_item p{
+  font-weight: bold;
+}.main_button_item p span{
+  font-weight: normal;
+}
 .treemtxt {
-        background-color: none !important;
+        background-color: transparent!important;
         display: block;
         margin: auto;
         max-width: 400px;
@@ -226,7 +231,7 @@ main {
 }
 
 .main_text_item {
-    background-color: #ffffffd9;
+    background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -246,7 +251,8 @@ main {
   width: 41em;
   border-radius: 1em;
   min-height: 3.7em;
-  text-align: center;
+      text-align: left;
+    padding: 12px 48px;;
   cursor: pointer;
   border: 2px solid #bdf3e3;
   font-weight: bold;
