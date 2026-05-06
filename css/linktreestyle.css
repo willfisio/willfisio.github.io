@@ -239,7 +239,7 @@ main {
   color: var(--button_text_color);
   border-bottom: solid 1px #e7e7e7;
   width: 41em;
-  margin-top: 1em;
+  
   padding: 0.8em;
   border-radius: 0.3em;
   min-height: 3.7em;
@@ -261,6 +261,8 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+  transition: none !important;
+  transition: none !important;
 }
 .sauni{
       display: block;
