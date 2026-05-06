@@ -253,6 +253,24 @@ main {
   flex: 0 0 45%;
         max-width: 45%;
 }
+.scsuni{
+      display: block;
+    background-image: url(img/nwb.jpg);
+    height: 240px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sauni{
+      display: block;
+    background-image: url(img/bs.jpg);
+    height: 240px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .main_button_item {
   color: #14512d;
   background-color: #fff;
