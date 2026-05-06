@@ -92,7 +92,7 @@ body {
     background-size: 40%;
 }
 .treemtxt {
-        
+        background-color: none !important;
         display: block;
         margin: auto;
         max-width: 400px;
@@ -138,7 +138,7 @@ body {
 }
 
 .header_text h1 {
-  color: var(--title_color);
+  color: #14512d;
   font-size: 2.9em;
 }
 
