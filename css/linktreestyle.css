@@ -93,6 +93,7 @@ body {
 }
 .main_button_item p{
   font-weight: bold;
+  margin: 0;
 }.main_button_item p span{
   font-weight: normal;
 }
@@ -244,10 +245,17 @@ main {
   min-height: 3.7em;
   text-align: center;
 }
-
+.contatocont .col-lg-6{
+  background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 21%);
+    margin: 2%;
+  flex: 0 0 45%;
+        max-width: 45%;
+}
 .main_button_item {
-  color: var(--button_text_color);
-  background-color: var(--button_background_color);
+  color: #14512d;
+  background-color: #fff;
   width: 41em;
   border-radius: 1em;
   min-height: 3.7em;
@@ -256,6 +264,7 @@ main {
   cursor: pointer;
   border: 2px solid #bdf3e3;
   font-weight: bold;
+  box-shadow: 0 2px 6px 0 rgb(0 0 0 / 21%);
 }
 
 .main_small_button_list {
