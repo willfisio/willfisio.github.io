@@ -246,6 +246,7 @@ main {
   text-align: center;
 }
 .contatocont .col-lg-6{
+  overflow: hidden;
   background: #fff;
     border-radius: 12px;
     box-shadow: 0 2px 6px 0 rgb(0 0 0 / 21%);
@@ -255,7 +256,7 @@ main {
 }
 .scsuni{
       display: block;
-    background-image: url('img/nwb.jpg');
+    background-image: url('/img/nwb.jpg');
     height: 240px;
     width: 100%;
     background-repeat: no-repeat;
@@ -265,7 +266,7 @@ main {
 }
 .sauni{
       display: block;
-    background-image: url('img/bs.jpg');
+    background-image: url('/img/bs.jpg');
     height: 240px;
     width: 100%;
     background-repeat: no-repeat;
