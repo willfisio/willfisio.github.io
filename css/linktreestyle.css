@@ -49,8 +49,9 @@
 }
 
 /* Basic Codes */
-h1.header_h_item, h2.header_h_item {
+h2.header_h_item {
     font-weight: normal !important;
+    color: #14512d;
 }
 .qrcodes .header_svg_item {
     width: 15.1em;
@@ -90,7 +91,14 @@ body {
     background-color: #fff;
     background-size: 40%;
 }
-
+.treemtxt {
+        
+        display: block;
+        margin: auto;
+        max-width: 400px;
+        text-align: center;
+        border-radius: 0.3em;
+}
 .flex_column_center {
   display: flex;
   flex-direction: column;
@@ -122,21 +130,21 @@ body {
 }
 
 .header_img img {
-  height: var(--image_height);
-  width: var(--image_width);
-  border: var(--image_border_px) solid var(--image_border_color);
-  border-radius: 50%;
-  margin-bottom: 0.5em;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin-bottom: 0.5em;
 }
 
 .header_text h1 {
   color: var(--title_color);
-  font-size: 2em;
+  font-size: 2.9em;
 }
 
 .header_text h2 {
   color: var(--description_color);
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 /* Social Media Icons Codes */
