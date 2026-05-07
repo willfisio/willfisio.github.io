@@ -255,6 +255,9 @@ main {
         max-width: 45%;
   padding: 0;
 }
+.fa-angle-right:before {
+    content: "\f105";
+}
 .scsuni{
       display: block;
     background-image: url('/img/nwb.jpg');
