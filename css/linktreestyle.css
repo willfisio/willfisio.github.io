@@ -228,7 +228,7 @@ main {
 
 .main_a_item {
   margin-top: 1em;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .main_text_item {
