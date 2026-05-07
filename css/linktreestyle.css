@@ -257,6 +257,10 @@ main {
 }
 .fa-angle-right:before {
     content: "\f105";
+  font-family: "Font Awesome 5 Free";
+}
+.fa {
+  font-family: "Font Awesome 5 Free";
 }
 .scsuni{
       display: block;
