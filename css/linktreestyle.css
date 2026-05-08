@@ -227,6 +227,12 @@ div.treemtxt {
     max-width: 16.66667%;
 
 }
+.main_a_item button i.col-lg-2{
+  max-width: 10.66667%;
+text-align: right;
+}
+
+
 .main_a_item button .col-lg-8{
   flex: 0 0 66.66667%;
     max-width: 66.66667%;
@@ -265,6 +271,14 @@ main {
   margin-top: 1em;
   text-decoration: none !important;
 }
+.footertree img{
+  max-width: 41em;
+    border-radius: 12px;
+    border: 2px solid #e7e7e7;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 21%);
+    padding: 0.1em 1em;
+    width: 100%;
+}
 .treemtxt > p{
   color: #14512d;
     font-weight: bold;
@@ -273,16 +287,16 @@ main {
     font-size: 1.5em;
     border-top: 1px solid #14512d26;
 }
+
 .main_text_item {
     background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--button_text_color);
-  border-bottom: solid 1px #e7e7e7;
   width: 41em;
   
-  padding: 0.8em;
+  padding: 0 0 0.8em;
   border-radius: 0.3em;
   min-height: 3.7em;
   text-align: center;
