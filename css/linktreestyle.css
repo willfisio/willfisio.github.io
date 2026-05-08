@@ -417,7 +417,7 @@ div.contatocont .col-lg-6{
   font-size: 0.6em;
 }
 .footer_div_item .text-white {
-    color: #565656;
+    color: #565656 !important;
 }
 .footer_a_item {
   color: var(--footer_link_text_color);
@@ -427,9 +427,12 @@ div.contatocont .col-lg-6{
 /* Responsive Codes */
 
 @media (max-width: 768px) { 
-  body{
+  body.bd{
     background-position: top right -6em;
     background-size: 100%;
+  }
+  .main_a_item button .col-lg-8{
+        max-width: 59.66667%;
   }
   .main_text_item {
     width: 92vw;
