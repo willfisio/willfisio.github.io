@@ -287,7 +287,21 @@ main {
   min-height: 3.7em;
   text-align: center;
 }
-.contatocont .col-lg-6{
+div.main_text_item p{
+  color: #211E1C;
+    font-size: 0.8em;
+}
+h6.header_h_item{
+  color: #211E1C;
+    font-size: 0.8em;
+}
+.contatocont a img {
+    vertical-align: middle;
+    border-radius: 12px;
+    max-width: 20px !important;
+    margin-right: 2px;
+}
+div.contatocont .col-lg-6{
   overflow: hidden;
   background: #fff;
     border-radius: 12px;
@@ -319,7 +333,7 @@ main {
 .sauni{
       display: block;
     background-image: url('/img/bs.jpg');
-    height: 240px;
+     height: 9em;
     width: 100%;
     background-repeat: no-repeat;
     background-position: bottom left;
@@ -331,6 +345,7 @@ main {
   max-width: 78px !important;
 }
 .main_button_item {
+  border: none;
   color: #14512d;
   background-color: #fff;
   width: 41em;
@@ -361,7 +376,7 @@ main {
 }
 
 .main_small_button_item:hover,
-.main_button_item:hover {
+.main_button_item:hover, a.btn.btn-primary:hover {
   color: #fff;
     background-color: #14512d;
     transform: scale(1.02);
