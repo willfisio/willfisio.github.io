@@ -99,13 +99,14 @@ body {
     background-color: #fff;
     background-size: 40%;
 }
+
 .main_button_item p{
   font-weight: bold;
   margin: 0;
 }.main_button_item p span{
   font-weight: normal;
 }
-.treemtxt {
+div.treemtxt {
         background-color: transparent!important;
         display: block;
         margin: auto;
