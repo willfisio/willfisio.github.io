@@ -389,7 +389,10 @@ main {
   .main_text_item {
     width: 92vw;
   }
-
+  .contatocont .col-lg-6 {
+    flex: none;
+    margin: auto;
+  }
   .main_small_button_item {
     width: calc(92vw / 2 - 5px);;
   }
