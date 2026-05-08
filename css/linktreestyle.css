@@ -101,7 +101,7 @@ body {
         background-color: transparent!important;
         display: block;
         margin: auto;
-        max-width: 400px;
+        max-width: 41em;
         text-align: center;
         border-radius: 0.3em;
 }
@@ -231,10 +231,10 @@ main {
   margin-bottom: auto;
 }
 .contatocont p {
-    border-top: none;
+    border-top: none !important;
     color: #505050;
     font-size: 0.9em;
-    padding: 0 0 2em 0;
+    padding: 0 0 1em 0;
 }
 .contatocont a{
   color: #14512d !important;
@@ -256,7 +256,7 @@ main {
   margin-top: 1em;
   text-decoration: none !important;
 }
-.treemtxt p{
+.treemtxt > p{
   color: #14512d;
     font-weight: bold;
     margin: 2em 0 0 0;
@@ -319,7 +319,7 @@ main {
 
 }
 .row img {
-  max-width: 78px;
+  max-width: 78px !important;
 }
 .main_button_item {
   color: #14512d;
