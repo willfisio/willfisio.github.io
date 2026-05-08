@@ -213,7 +213,16 @@ body {
     background: #3c3c3c;
     border: 2px solid #3c3c3c;
 }
+.main_a_item button .col-lg-2{
+  flex: 0 0 16.66667%;
+    max-width: 16.66667%;
 
+}
+.main_a_item button .col-lg-8{
+  flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+
+}
 .header_svg_item:hover path {
     fill: #bdf3e3;
 }
@@ -221,7 +230,24 @@ body {
 main {
   margin-bottom: auto;
 }
-
+.contatocont p {
+    border-top: none;
+    color: #505050;
+    font-size: 0.9em;
+    padding: 0 0 2em 0;
+}
+.contatocont a{
+  color: #14512d !important;
+    background-color: #f1f5f3;
+    width: 41em;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 21%);
+    align-items: center;
+    border: 0;
+      margin-bottom: 40px !important;
+}
 #main_section_container_2, #main_section_container_3 {
  display: none;
 }
@@ -230,7 +256,14 @@ main {
   margin-top: 1em;
   text-decoration: none !important;
 }
-
+.treemtxt p{
+  color: #14512d;
+    font-weight: bold;
+    margin: 2em 0 0 0;
+    padding: 24px 0 0 0;
+    font-size: 1.5em;
+    border-top: 1px solid #14512d26;
+}
 .main_text_item {
     background-color: transparent;
   display: flex;
