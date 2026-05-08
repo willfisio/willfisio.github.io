@@ -431,7 +431,7 @@ div.contatocont .col-lg-6{
   .main_text_item {
     width: 92vw;
   }
-  .contatocont .col-lg-6 {
+  .contatocont div.col-lg-6 {
     flex: none;
     margin: auto;
     max-width: 90% !important;
