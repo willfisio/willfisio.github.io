@@ -66,7 +66,15 @@ h2.header_h_item {
     width: 100%;
     margin-bottom: 6px;
 }
-
+body{
+  background: linear-gradient(to bottom, #e0fff6, #ffffff);
+    background-image: url(/img/f2.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-blend-mode: lighten;
+    background-color: #e0fff6f0;
+}
 .qrcodes p {
     text-align: center;
     color: var(--button_text_color);
@@ -386,6 +394,10 @@ main {
 /* Responsive Codes */
 
 @media (max-width: 768px) { 
+  body{
+    background-position: top right -6em;
+    background-size: 100%;
+  }
   .main_text_item {
     width: 92vw;
   }
