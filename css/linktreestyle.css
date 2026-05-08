@@ -242,8 +242,8 @@ main {
 .contatocont p {
     border-top: none !important;
     color: #505050;
-    font-size: 0.9em;
-    padding: 0 0 1em 0;
+    font-size: 0.7em;
+    padding: 0 0 1em 0 !important;
 }
 .contatocont a{
   color: #14512d !important;
