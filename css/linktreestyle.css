@@ -309,10 +309,10 @@ main {
 .scsuni{
       display: block;
     background-image: url('/img/nwb.jpg');
-    height: 240px;
+    height: 9em;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom left;
     background-size: cover;
   transition: none !important;
 }
@@ -322,7 +322,7 @@ main {
     height: 240px;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom left;
     background-size: cover;
     transition: none !important;
 
