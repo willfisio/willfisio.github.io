@@ -154,7 +154,7 @@ div.treemtxt {
 
 .header_text h1 {
   color: #14512d;
-  font-size: 2.9em;
+  font-size: 2.6em;
 }
 
 .header_text h2 {
@@ -243,7 +243,7 @@ main {
     border-top: none !important;
     color: #505050;
     font-size: 0.7em;
-    padding: 0 0 1em 0 !important;
+    padding: 0 !important;
 }
 .contatocont a{
   color: #14512d !important;
