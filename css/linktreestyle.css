@@ -434,6 +434,7 @@ div.contatocont .col-lg-6{
   .contatocont .col-lg-6 {
     flex: none;
     margin: auto;
+    max-width: 90% !important;
   }
   .main_small_button_item {
     width: calc(92vw / 2 - 5px);;
