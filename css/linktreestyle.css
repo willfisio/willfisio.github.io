@@ -268,6 +268,9 @@ main {
   margin-top: 1em;
   text-decoration: none !important;
 }
+.footertree{
+  text-align: center;
+}
 .footertree img{
   max-width: 41em;
     border-radius: 12px;
@@ -333,6 +336,7 @@ div.contatocont .col-lg-6{
     text-align: right;
 }
 .scsuni{
+  position: relative;
       display: block;
     background-image: url('/img/nwb.jpg');
     height: 9em;
@@ -343,6 +347,7 @@ div.contatocont .col-lg-6{
   transition: none !important;
 }
 .sauni{
+  position: relative;
       display: block;
     background-image: url('/img/bs.jpg');
      height: 9em;
