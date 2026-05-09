@@ -248,17 +248,17 @@ main {
     font-size: 0.7em;
     padding: 0 !important;
 }
-.contatocont a{
-  color: #14512d !important;
+.contatocont a {
+    color: #14512d !important;
     background-color: #f1f5f3;
     width: 41em;
     border-radius: 6px;
-    cursor: pointer;
-    font-weight: bold;
-    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 21%);
     align-items: center;
     border: 0;
-      margin-bottom: 40px !important;
+    margin-bottom: 40px !important;
+    font-size: 0.8em !important;
+    font-weight: 500;
+    padding: 9px;
 }
 #main_section_container_2, #main_section_container_3 {
  display: none;
