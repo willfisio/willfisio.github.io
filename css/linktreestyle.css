@@ -227,10 +227,7 @@ div.treemtxt {
     max-width: 16.66667%;
 
 }
-.main_a_item button i.col-lg-2{
-  max-width: 10.66667%;
-text-align: right;
-}
+
 
 
 .main_a_item button .col-lg-8{
@@ -407,7 +404,18 @@ div.contatocont .col-lg-6{
   text-align: center;
   cursor: pointer;
 }
-
+.scsuni img, .sauni img{
+  position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    width: 67px;
+}
+.scsuni h5, .sauni h5{
+  padding-top: 1.8em !important;
+    font-size: 1em;
+    font-weight: 600 !important;
+}
 /* Footer Codes */
 
 .footer_div_item {
@@ -431,6 +439,10 @@ div.contatocont .col-lg-6{
     background-position: top right -6em;
     background-size: 100%;
   }
+  .main_a_item button i.col-lg-2{
+  max-width: 10.66667%;
+text-align: right;
+}
   .main_a_item button .col-lg-8{
         max-width: 59.66667%;
   }
