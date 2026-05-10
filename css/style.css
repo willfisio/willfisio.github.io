@@ -24,6 +24,7 @@ background-image: url(img/bgsobre.png);
     background-color: #fbfafa;
 }
 
+
 .headersobre h1 {
 color: #14512d;
     font-size: 1.9em;
@@ -45,9 +46,14 @@ color: #211E1C;
 }
 
 .btnaw {
-margin-top: 50px;
+  margin-top: 50px;
+    display: block;
+    position: relative;
+    max-width: 370px;
 }
-
+.btnaw img {
+  max-width: 70px;
+}
 .btnaw button{
     max-width: 370px;
     border: none;
