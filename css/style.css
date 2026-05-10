@@ -17,13 +17,15 @@
 }
 
 .headersobre {
-    background-image: url(img/bgsobre.png);
+    background-image: url('img/bgsobre.png');
     background-position: center top -110px;
     background-repeat: no-repeat;
     height: 610px;
     background-color: #043e23;
 }
-
+.infosobre img {
+  
+}
 
 .headersobre h1 {
 color: #14512d;
@@ -54,17 +56,17 @@ color: #14512d;
     padding: 24px 0;
 }
 
-.headersobre h2 {
+.headersobre h2, .proposito h2 {
 font-size: 2.7em !important;
 }
 
-.headersobre h2 p {
+.headersobre h2 p, .proposito h2 p {
 color: #14512d;
 }
 
-.headersobre div>p{
+.headersobre div>p, .proposito div>p{
 color: #211E1C;
-    max-width: 549px;
+    max-width: 438px;
     padding-top: 10px;
 }
 
