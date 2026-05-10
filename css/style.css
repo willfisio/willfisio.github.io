@@ -24,7 +24,7 @@
     background-color: #043e23;
 }
 .infosobre img {
-  
+    max-width: 300px;
 }
 
 .headersobre h1 {
