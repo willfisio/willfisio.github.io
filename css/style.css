@@ -17,7 +17,7 @@
 }
 
 .headersobre {
-    background-image: url('img/bgsobre.png');
+    background-image: url('/img/bgsobre.png');
     background-position: center top -110px;
     background-repeat: no-repeat;
     height: 610px;
