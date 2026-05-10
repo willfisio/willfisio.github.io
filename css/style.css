@@ -38,12 +38,12 @@ color: #14512d;
     border: 1px solid #14512d;
     margin-bottom: 20px;
 }
-.infosobre p {
+.infosobre p, .proposito p {
     color: #14512d;
     font-size: 1.9em;
     font-weight: 600 !important;
 }
-.infosobre span {
+.infosobre span, .proposito span {
     color: #211E1C;
     max-width: 549px;
     padding-top: 10px;
