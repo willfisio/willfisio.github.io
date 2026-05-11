@@ -10044,7 +10044,7 @@ h6,
 }
   
   .btnaw button {
-    max-width: 90%;
+    max-width: 90% !important;
 }
   .btnaw p{
     font-size: 0.8em;
