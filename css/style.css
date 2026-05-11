@@ -600,7 +600,7 @@ a {
 }
 
 a:hover {
-  color: #f56649;
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -2828,11 +2828,12 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #14512d;
   border-color: #14512d;
+  border-radius: 8px;
 }
 
 .btn.btn-primary:hover {
   color: #14512d !important;
-  background-color: #565656;
+  background-color: #fff;
   border-color: #14512d;
 }
 
