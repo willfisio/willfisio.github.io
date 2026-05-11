@@ -10027,9 +10027,10 @@ h6,
   .infosobre img {
     padding: 0 !important;
     border: 0 !important;
+    max-width: 90% !important
 }
       img.infoimg2 {
-        max-width: 298px !important;
+        max-width: 92% !important;
         padding-right: 12px !important;
     }
   .headersobre{
