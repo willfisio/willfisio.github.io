@@ -10005,6 +10005,9 @@ h6,
   .navbar-light .navbar-nav .nav-link {
     padding: 10px 15px;
   }
+  .formacao .col-lg-3 {
+    max-width: 60%;
+}
   .infosobre>div {
     width: 80%;
 }
