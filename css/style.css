@@ -10020,6 +10020,7 @@ h6,
 }
   .headersobre {
     background-position: left top;
+    height: auto !important;
 }
   .infosobre .col-lg-7 {
     margin-top: 24px;
@@ -10031,16 +10032,22 @@ h6,
 }
       img.infoimg2 {
         max-width: 92% !important;
-        padding-right: 12px !important;
+        
     }
-  .headersobre{
-        height: auto !important;
-  }
+  .container-fluid.py-5.formacao {
+    padding-top: 0 !important;
+}
+  .proposito {
+    padding-top: 0 !important;
+}.formacao {
+    padding-bottom: 0 !important;
+}
+  
   .btnaw button {
     max-width: 80%;
 }
   .btnaw p{
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
   .headersobre .col-lg-12 {
     padding: 0 !important;
