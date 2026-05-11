@@ -10052,6 +10052,12 @@ h6,
   .headersobre .col-lg-12 {
     padding: 0 !important;
 }
+  .headersobre div>p{
+    font-size: 0.9em
+  }
+  .headersobre .d-block {
+    padding: 0 1em;
+}
 }
 
 .carousel-indicators li {
