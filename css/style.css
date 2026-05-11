@@ -81,7 +81,7 @@ color: #14512d;
     border: none;
 }
 .btnaw {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .formacao .col-lg-3 p {
     font-size: 0.8em;
@@ -140,7 +140,7 @@ color: #211E1C;
     max-width: 370px;
 }
 .btnaw img {
-  max-width: 70px;
+  max-width: 70px !important;
 }
 .btnaw button{
     max-width: 370px;
@@ -409,7 +409,7 @@ fill: #bdf3e3 !important;
     content: "\1f558";
 }
 .btn.btn-primary:hover i {
-    color: #14512d !important;
+    color: #fff !important;
 }
 
 .p-4 p {
@@ -9943,7 +9943,7 @@ h6,
 
 .btn.btn-primary,
 .btn.btn-secondary {
-  color: #505050 !important;
+  color: #fff !important;
 }
 
 .btn-square {
@@ -10167,9 +10167,11 @@ h6,
 }
 
 .footer .btn-primary i {
-  color: #3c3c3c !important;
+  color: #fff !important;
 }
-
+.fab {
+    -webkit-text-stroke: 0;
+}
 @media (min-width: 992px) {
   .footer::after {
     position: absolute;
