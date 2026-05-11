@@ -10008,6 +10008,12 @@ h6,
   .infosobre>div {
     width: 80%;
 }
+  .proposito img {
+    max-width: 100%;
+    border-radius: 12px;
+    display: block;
+    margin: 20px auto;
+}
   .headersobre {
     background-position: left top;
 }
