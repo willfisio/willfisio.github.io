@@ -59,6 +59,37 @@ color: #14512d;
     max-width: 480px;
     border-radius: 12px;
 }
+.formacao .col-lg-12 img {
+    max-width: 200px;
+    margin: auto;
+    position: relative;
+}
+.formacao {
+    text-align: center;
+}
+.formacao .col-lg-3 p {
+    font-size: 0.8em;
+}
+.formacaosep {
+    height: 1px;
+    width: 40px;
+    border: 1px solid #14512d;
+    margin-bottom: 20px;
+    margin: 12px auto;
+}
+.formacao .col-lg-3 img {
+    max-width: 110px;
+    padding-top: 20px;
+}
+.formacao h5 {
+    color: #14512d;
+    font-size: 1.2em;
+    font-weight: 600 !important;
+    padding-top: 18px;
+    text-transform: uppercase;
+    max-width: 236px;
+    margin: auto;
+}
 .formacao h4 {
     color: #14512d;
     text-align: center;
@@ -80,7 +111,7 @@ font-size: 2.7em !important;
 color: #14512d;
 }
 
-.headersobre div>p, .proposito div>p{
+.headersobre div>p {
 color: #211E1C;
     max-width: 438px;
     padding-top: 10px;
