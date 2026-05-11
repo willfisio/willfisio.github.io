@@ -10032,6 +10032,18 @@ h6,
         max-width: 298px !important;
         padding-right: 12px !important;
     }
+  .headersobre{
+        height: auto !important;
+  }
+  .btnaw button {
+    max-width: 80%;
+}
+  .btnaw p{
+    font-size: 0.9em;
+  }
+  .headersobre .col-lg-12 {
+    padding: 0 !important;
+}
 }
 
 .carousel-indicators li {
