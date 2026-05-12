@@ -249,7 +249,7 @@ main {
     font-size: 0.7em;
     padding: 0 !important;
 }
-.contatocont a {
+.contatocont a.btn {
     color: #14512d !important;
     background-color: #f1f5f3;
     width: 41em;
