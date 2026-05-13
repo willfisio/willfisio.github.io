@@ -23,10 +23,19 @@
     height: 610px;
     background-color: #043e23;
 }
+.headermas {
+    background-image: url('/img/bgmassagem.png');
+    background-position: center top -110px;
+    background-repeat: no-repeat;
+    height: 610px;
+    background-color: #043e23;
+}
 .infosobre img {
     max-width: 300px;
 }
-
+.headermas img {
+    max-width: 400px;
+}
 .headersobre h1 {
 color: #14512d;
     font-size: 1.9em;
@@ -123,8 +132,11 @@ color: #14512d;
 font-size: 2.7em !important;
 }
 
-.headersobre h2 p, .proposito h2 p {
+.headersobre h2 p, .headermas h1, .proposito h2 p {
 color: #14512d;
+}
+.headermas h1{
+    font-weight: 800 !important;
 }
 
 .headersobre div>p {
