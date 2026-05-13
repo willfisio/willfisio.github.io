@@ -57,12 +57,29 @@
         background: linear-gradient(180deg, #ededed, #ffffff);
 }
 .headermas img {
-    max-width: 400px;
+    max-width: 480px;
+}
+.headermas div>p {
+    font-size: 0.9em;
+    max-width: 343px;
 }
 .headersobre h1 {
 color: #14512d;
     font-size: 1.9em;
     font-weight: 600 !important;
+}
+.masd1 {
+    position: relative;
+}
+.masd1 p {
+    position: absolute;
+    font-size: 0.85em;
+    color: #023224;
+    left: 59px;
+    font-weight: 700 !important;
+    background: #fff;
+    line-height: 17px;
+    letter-spacing: -0.5px;
 }
 .sobreborder {
     height: 1px;
