@@ -24,11 +24,16 @@
     background-color: #043e23;
 }
 .headermas {
-    background-image: url('/img/bgmassagem.png');
-    background-position: center top -110px;
+    background-image: url(/img/bgmassagem.png);
+    background-position: 480px bottom;
     background-repeat: no-repeat;
     height: 610px;
     background-color: #f3f0ee;
+    background-size: 60%;
+}
+.container-fluid.infomas {
+    margin-top: -40px;
+    background: linear-gradient(180deg, #f3f0ee, #ffffff);
 }
 .infosobre img {
     max-width: 300px;
