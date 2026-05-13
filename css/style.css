@@ -32,10 +32,13 @@
     background-size: 60%;
 }
 .container-fluid.infomas {
-    margin-top: -40px;
+    margin-top: -90px;
 }
 .infosobre img {
     max-width: 300px;
+}
+.headermas span.masterap img {
+    width: 25px;
 }
 .headermas span.masterap {
     text-transform: uppercase;
