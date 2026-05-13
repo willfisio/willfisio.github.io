@@ -144,7 +144,23 @@ color: #211E1C;
     max-width: 438px;
     padding-top: 10px;
 }
-
+.infomas p{
+    color: #fff;
+    font-size: 1.9em;
+    font-weight: 600 !important;
+}
+.infomas .col-lg-8 img {
+    max-width: 240px;
+}
+.infomas .container {
+    background: #023224;
+}
+.infomas span{
+    color: #211E1C;
+    max-width: 549px;
+    padding-top: 10px;
+    font-size: 0.9em;
+}
 .btnaw {
   margin-top: 50px;
     display: block;
