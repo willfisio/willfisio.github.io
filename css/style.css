@@ -71,7 +71,7 @@ color: #14512d;
 .masd1 {
     position: relative;
 }
-.masd1 p {
+div.masd1 p {
     position: absolute;
     font-size: 0.85em;
     color: #023224;
