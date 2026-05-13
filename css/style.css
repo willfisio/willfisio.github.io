@@ -28,7 +28,7 @@
     background-position: center top -110px;
     background-repeat: no-repeat;
     height: 610px;
-    background-color: #043e23;
+    background-color: #f3f0ee;
 }
 .infosobre img {
     max-width: 300px;
@@ -139,7 +139,7 @@ color: #14512d;
     font-weight: 800 !important;
 }
 
-.headersobre div>p {
+.headersobre div>p, .headermas div>p {
 color: #211E1C;
     max-width: 438px;
     padding-top: 10px;
