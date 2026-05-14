@@ -75,11 +75,36 @@ div.masd1 p {
     position: absolute;
     font-size: 0.85em;
     color: #023224;
-    left: 59px;
+    left: 57px;
     font-weight: 700 !important;
     background: #fbfbfc;
     line-height: 17px;
     letter-spacing: -0.5px;
+}
+.container-fluid.py-5.bene {
+    text-align: center;
+}
+.bene p {
+    color: #023224;
+    left: 57px;
+    line-height: 17px;
+    letter-spacing: -0.1px;
+    font-size: 0.8em;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.bene .col-lg-2 {
+    flex: 0 0 20%;
+    max-width: 20%;
+    border-left: 1px solid #e7e7e7;
+}
+.bene img {
+    max-width: 80px;
+}
+.bene h4 {
+    color: #023224;
+    font-size: 1.7em;
+    text-align: center;
 }
 .sobreborder {
     height: 1px;
