@@ -56,6 +56,59 @@
 .bodymas{
         background: linear-gradient(180deg, #ededed, #ffffff);
 }
+.headermas.headerfisio span.masterap {
+    max-width: 150px;
+    font-weight: 600;
+}
+.headermas.headerfisio {
+    background-image: url(/img/bgfisio.jpg);
+    height: 500px;
+    background-size: 50%;
+    background-position: 640px bottom;
+}
+.bene.funatend .col-lg-2 {
+    min-height: 220px;
+}
+.avunico p span {
+    color: #349d5f;
+}
+.container.mb-4.avunico {
+    background: #ededed;
+    border-radius: 12px;
+    max-width: 800px;
+    padding: 20px;
+}
+.avunico p {
+    color: #211E1C;
+    font-size: 0.9em;
+    line-height: 18px;
+    display: block;
+}
+.atendline{
+    width: 840px;
+    left: 140px;
+    height: 2px;
+    top: 60px;
+    position: absolute;
+    stroke-width: 3;
+    background-image: url(data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23D4D4D4FF' stroke-width='9' stroke-dasharray='3%2c18' stroke-dashoffset='27' stroke-linecap='butt'/%3e%3c/svg%3e);
+}
+}
+.funatend span {
+    color: #211E1C;
+    font-size: 0.8em;
+    line-height: 18px;
+    display: block;
+}
+.bene.funatend p {
+    margin: 0;
+    font-weight: 700;
+    padding-bottom: 6px;
+    font-size: 1em;
+}
+.headermas.headerfisio h1 {
+    font-weight: 800 !important;
+}
 .headermas img {
     max-width: 480px;
     width: 100%
