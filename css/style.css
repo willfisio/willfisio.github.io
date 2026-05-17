@@ -300,6 +300,25 @@ span.DYizzd {
 .gyKkFe.JhRJje.Fv38Af {
     margin-top: 12px;
 }
+.abter .ablib,.abter .abrelax,.abter .absueca{
+  position: relative;
+      display: block;
+    height: 9em;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+  transition: none !important;
+}
+.ablib{
+    background-image: url('/img/bglib.png');
+}
+.abrelax{
+    background-image: url('/img/bgsueca.png');
+}
+.absueca{
+    background-image: url('/img/bgrelax.png');
+}
 .treemtxt {
         background-color: #ffffffd9;
     display: block;
@@ -328,7 +347,16 @@ span.DYizzd {
 .goldstar path {
     fill: #f2d600;
 }
-
+div.abter .col-lg-3 {
+    overflow: hidden;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 21%);
+    margin: 2%;
+    flex: 0 0 33%;
+    max-width: 33%;
+    padding: 0;
+}
 .carqm{
          height: 160% !important;
     object-position: 75% -13em !important;
