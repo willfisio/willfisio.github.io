@@ -10193,8 +10193,14 @@ h6,
     }
     div.masd1 p {
     background: none;
-    left: 0;
-    right: 0;
+        left: 40px;
+        right: 0;
+        font-size: 0.8em;
+            position: absolute;
+    color: #023224;
+    font-weight: 700 !important;
+    line-height: 17px;
+    letter-spacing: -0.5px;
 }
     div.masd1 p {
     background: none;
@@ -10203,9 +10209,7 @@ h6,
     font-size: 0.9em;
     text-align: center;
 }
-    .infomas .col-lg-8 img {
-    max-width: 250px;
-}
+    
   .formacao .col-lg-3 {
     max-width: 75%;
 }
@@ -10221,6 +10225,9 @@ h6,
     margin: auto;
     max-width: 90% !important;
 }
+    .align-items-center{
+        margin: auto
+    }
   .infosobre>div {
     width: 80%;
 }
