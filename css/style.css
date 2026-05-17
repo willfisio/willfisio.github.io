@@ -81,9 +81,11 @@ div.masd1 p {
     line-height: 17px;
     letter-spacing: -0.5px;
 }
-.container-fluid.py-5.bene {
+.bene {
     text-align: center;
+     padding: 0 0 4em;
 }
+
 .bene p {
     color: #023224;
     left: 57px;
@@ -311,6 +313,12 @@ span.DYizzd {
   transition: none !important;
     border-radius: 12px;
 }
+.abter .col-lg-3 img {
+    max-width: 70px;
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+}
 .ablib{
     background-image: url('/img/bglib.png');
 }
@@ -371,7 +379,7 @@ div.abter .col-lg-3 {
     padding: 0 12px;
 }
 .abter p{
-    color: rgb(33, 30, 28);
+        color: rgb(33, 30, 28);
     max-width: 438px;
     padding: 0 12px;
     font-size: 0.8em;
