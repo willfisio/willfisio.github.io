@@ -10216,7 +10216,7 @@ h6,
     padding-bottom: 12px;
 }
     .bene .col-lg-2, div.abter .col-lg-3 {
-    border-left: 1px solid #e7e7e7;
+    border-left: none;
     flex: none;
     margin: auto;
     max-width: 90% !important;
