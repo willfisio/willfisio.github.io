@@ -10191,6 +10191,10 @@ h6,
     .infomas .destaque{
         margin: 20px auto;
     }
+    .infomas span{
+        max-width: 80%;
+    margin: 0 auto 2.5em;
+    }
     div.masd1 p {
     background: none;
         left: 40px;
