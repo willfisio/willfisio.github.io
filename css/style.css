@@ -58,6 +58,7 @@
 }
 .headermas img {
     max-width: 480px;
+    width: 100%
 }
 .headermas div>p {
     font-size: 0.9em;
@@ -213,6 +214,8 @@ color: #211E1C;
 }
 .infomas .col-lg-4 img {
     max-width: 340px;
+    width: 100%;
+    
 }
 .infomas p{
     color: #fff;
@@ -10185,8 +10188,20 @@ h6,
   .navbar-light .navbar-nav .nav-link {
     padding: 10px 15px;
   }
+    .infomas .destaque{
+            margin-top: 20px;
+    }
   .formacao .col-lg-3 {
     max-width: 75%;
+}
+    .infomas .col-lg-4 {
+    padding-bottom: 12px;
+}
+    .bene .col-lg-2, div.abter .col-lg-3 {
+    border-left: 1px solid #e7e7e7;
+    flex: none;
+    margin: auto;
+    max-width: 90% !important;
 }
   .infosobre>div {
     width: 80%;
