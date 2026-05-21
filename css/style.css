@@ -10290,18 +10290,23 @@ h6,
     border-radius: 8px;
 }
 .laser .headermas.headerfisio h1 {
-    font-size: 4em;
+        font-size: 4em;
+    color: #fff;
+    font-weight: 600 !important;
 }
 .laser .headermas.headerfisio h1 span {
     font-weight: 400;
-    color: #87aa56;
+    color: #98ad7b;
 }
 .laser .headermas div>p {
     color: #fff;
+    font-size: 0.85em;
+    padding: 2em 0 0;
 }
-.laser .headermas.headerfisio h2 {
-    font-size: 1em;
-    color: #fff;
+.laser .headermas.headerfisio {
+    height: auto;
+    background-color: #021d19;
+    padding-bottom: 0 !important;
 }
 .fisio1, .fisio2, .fisio3, .fisio4 {
     position: relative;
@@ -10343,6 +10348,10 @@ h6,
 }
 .laser .headermas.headerfisio {
     background-image: url(/img/bglaser.jpg);
+    background-color: #021d19;
+}
+body.bodyfis.laser {
+    background: #fff;
 }
 .laser div.treemtxt {
     max-width: 100%;
@@ -10403,8 +10412,12 @@ h6,
     border: 2px solid #697e59;
     border-radius: 4em;
     text-align: center;
-    margin: auto;
+    margin: 3em auto 0;
     padding: 0;
+}
+.laser .headermas.headerfisio span.masterap {
+    color: #98ad7b;
+    border-color: #98ad7b;
 }
 .laser .headermas img {
     max-width: 480px !important;
