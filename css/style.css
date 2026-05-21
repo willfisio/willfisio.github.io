@@ -10306,7 +10306,7 @@ h6,
 .laser .headermas.headerfisio {
     height: auto;
     background-color: #021d19;
-    padding-bottom: 0 !important;
+    padding: 2em 0 0 !important;
 }
 .fisio1, .fisio2, .fisio3, .fisio4 {
     position: relative;
