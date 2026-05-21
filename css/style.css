@@ -10318,7 +10318,7 @@ h6,
     background-image: url(/img/laser1.jpg);
 }
 .fisio2 {
-    background-image: url(/img/laser3.jpg);
+    background-image: url(/img/laser2.jpg);
 }
 .fisio3 {
     background-image: url(/img/laser3.jpg);
@@ -10344,6 +10344,10 @@ h6,
 .laser .headermas.headerfisio {
     background-image: url(/img/bglaser.jpg);
 }
+.laser div.treemtxt {
+    max-width: 100%;
+    text-align: left;
+}
 .seplasers {
     width: 50px;
     height: 1px;
@@ -10358,6 +10362,14 @@ h6,
 }
 .laser .headermas.headerfisio {
     height: auto;
+}
+.laser .treemtxt>p {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #809467;
+    max-width: 100%;
+    padding: 0 !important;
 }
 .laser .treemtxt>p {
     text-align: center;
