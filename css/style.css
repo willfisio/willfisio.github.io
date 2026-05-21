@@ -10291,6 +10291,24 @@ h6,
   .navbar-light .navbar-nav .nav-link {
     padding: 10px 15px;
   }
+    .atendline{
+        display: none;
+    }
+    .avunico.container.mb-4.row.align-items-center {
+    max-width: 90%;
+    text-align: center;
+}
+    .avunico img {
+    margin: auto;
+    padding: 0 0 12px;
+    max-width: 100px;
+}
+    .abterfis .col-lg-3.mt-4.p0.row {
+    border-left: none;
+    flex: none;
+    margin: auto;
+    max-width: 90% !important;
+}
     .infomas .destaque{
         margin: 20px auto;
     }
