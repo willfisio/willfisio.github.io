@@ -31,6 +31,9 @@
     background-color: #f3f0ee;
     background-size: 60%;
 }
+.infomas.infofis span {
+    max-width: 600px;
+}
 .container-fluid.infomas {
     margin-top: -90px;
 }
@@ -39,6 +42,21 @@
 }
 .headermas span.masterap img {
     width: 25px;
+}
+.infofis div.masd1 p {
+    left: 80px;
+    background: none;
+    max-width: 120px;
+}
+.bodyfis {
+    background: linear-gradient(180deg, #f3eeea, #ffffff);
+}
+.container-fluid.py-5.infomas.infofis {
+    margin: auto;
+}
+.container-fluid.abterfis .header_text {
+    text-align: center;
+    margin-top: 4em;
 }
 .headermas span.masterap {
     text-transform: uppercase;
