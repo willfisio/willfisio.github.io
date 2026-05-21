@@ -10303,6 +10303,80 @@ h6,
     font-size: 1em;
     color: #fff;
 }
+.fisio1, .fisio2, .fisio3, .fisio4 {
+    position: relative;
+    display: block;
+    
+    height: 9em;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+    transition: none !important;
+}
+.fisio1 {
+    background-image: url(/img/laser1.jpg);
+}
+.fisio2 {
+    background-image: url(/img/laser3.jpg);
+}
+.fisio3 {
+    background-image: url(/img/laser3.jpg);
+}
+.fisio4 {
+    background-image: url(/img/laser4.jpg);
+}
+.laser div.contatocont .col-lg-3 {
+    overflow: hidden;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 21%);
+    margin: 1%;
+    flex: 0 0 23%;
+    max-width: 23%;
+    padding: 0;
+}
+.laser .treemtxt i {
+    color: #c8dc9c;
+    font-size: 1em;
+    padding: 4px;
+}
+.laser .headermas.headerfisio {
+    background-image: url(/img/bglaser.jpg);
+}
+.seplasers {
+    width: 50px;
+    height: 1px;
+    border: 1px solid #c8dc9c;
+    margin: 12px 24px 18px;
+}
+.laser .treemtxt h5 {
+    color: #021d19;
+    font-size: 1.3em;
+    padding: 12px 0 0 22px;
+    margin: 0;
+}
+.laser .headermas.headerfisio {
+    height: auto;
+}
+.laser .treemtxt>p {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #809467;
+}
+.laser .treemtxt p {
+    color: #211E1C;
+    padding: 0 0 0 24px !important;
+    max-width: 90%;
+}
+.laser .treemtxt img {
+    position: absolute;
+    top: 24%;
+    left: 20%;
+    transform: translate(-50%, 100%);
+    width: 67px;
+}
 .headermas .laserbar img {
     max-width: 80px !important;
     width: 60px;
