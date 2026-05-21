@@ -10376,16 +10376,11 @@ body.bodyfis.laser {
     text-align: center;
     text-transform: uppercase;
     font-weight: 300;
-    color: #809467;
+    color: #8cbf6d !important;
     max-width: 100%;
     padding: 0 !important;
 }
-.laser .treemtxt>p {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 300;
-    color: #809467;
-}
+
 .laser .treemtxt p {
     color: #211E1C;
     padding: 0 0 0 24px !important;
