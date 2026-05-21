@@ -10380,7 +10380,10 @@ body.bodyfis.laser {
     max-width: 100%;
     padding: 0 !important;
 }
-
+.laser .headermas.headerfisio h2 {
+    font-size: 1em;
+    color: #fff;
+}
 .laser .treemtxt p {
     color: #211E1C;
     padding: 0 0 0 24px !important;
