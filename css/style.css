@@ -10307,6 +10307,7 @@ h6,
     height: auto;
     background-color: #021d19;
     padding: 2em 0 0 !important;
+    background-position: 640px top;
 }
 .fisio1, .fisio2, .fisio3, .fisio4 {
     position: relative;
