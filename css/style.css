@@ -10286,11 +10286,21 @@ h6,
 .navbar-light .navbar-nav .nav-link.active {
   color: #a9a9a9;
 }
-
+.infomas.infofis .col-lg-4 img {
+    border-radius: 8px;
+}
 @media (max-width: 991.98px) {
   .navbar-light .navbar-nav .nav-link {
     padding: 10px 15px;
   }
+    .infofis div.masd1 p {
+        background: none;
+        left: 57px;
+        right: 0;
+        font-size: 0.8em;
+        text-align: center;
+        max-width: 100%;
+    }
     .atendline{
         display: none;
     }
