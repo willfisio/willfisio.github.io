@@ -10289,6 +10289,40 @@ h6,
 .infomas.infofis .col-lg-4 img {
     border-radius: 8px;
 }
+.laser .headermas.headerfisio h1 {
+    font-size: 4em;
+}
+.laser .headermas.headerfisio h1 span {
+    font-weight: 400;
+    color: #87aa56;
+}
+.laser .headermas div>p {
+    color: #fff;
+}
+.laser .headermas.headerfisio h2 {
+    font-size: 1em;
+    color: #fff;
+}
+.headermas .laserbar img {
+    max-width: 80px !important;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center center;
+}
+.headermas div>p.laserbar {
+    max-width: 64%;
+    background-color: #021d19;
+    color: #fff;
+    border: 2px solid #697e59;
+    border-radius: 4em;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+.laser .headermas img {
+    max-width: 480px !important;
+}
 @media (max-width: 991.98px) {
   .navbar-light .navbar-nav .nav-link {
     padding: 10px 15px;
