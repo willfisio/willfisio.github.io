@@ -108,6 +108,10 @@
     display: block;
     margin: 0;
 }
+
+.laser .atendline{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Crect width='100%25' height='100%25' fill='none' stroke='%238cbf6d' stroke-width='9' stroke-dasharray='3%2C18' stroke-dashoffset='27' stroke-linecap='butt'/%3E%3C/svg%3E");
+}
 .atendline{
     width: 840px;
     left: 140px;
@@ -117,7 +121,14 @@
     stroke-width: 3;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Crect width='100%25' height='100%25' fill='none' stroke='%23D4D4D4' stroke-width='9' stroke-dasharray='3%2C18' stroke-dashoffset='27' stroke-linecap='butt'/%3E%3C/svg%3E");
 }
-
+.laser .container-fluid.abterfis h4 {
+    color: #8cbf6d !important;
+    text-transform: uppercase;
+}
+.laser div.abterfis .row.col-lg-3 {
+    flex: 0 0 23%;
+    max-width: 23%;
+}
 .funatend span {
     color: #211E1C;
     font-size: 0.8em;
@@ -10302,6 +10313,35 @@ h6,
     color: #fff;
     font-size: 0.85em;
     padding: 2em 0 0;
+}
+.laser .funatend .col-lg-12.row.align-items-center {
+    background: #011712;
+    padding: 20px 0;
+    border-radius: 20px;
+    margin: auto;
+}
+.laser .bene.funatend p {
+    color: #fff;
+    font-weight: 500;
+    padding: 0 0 12px;
+}
+.laser .bene.funatend strong {
+    display: block;
+    color: #8cbf6d;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 6px;
+}
+.laser .bene.funatend span {
+    color: #fff;
+    font-size: 0.7em;
+    line-height: 1.7em;
+}
+.laser .bene h4 {
+    color: #8cbf6d;
+    font-weight: 100 !important;
+    font-size: 1.3em;
+    text-transform: uppercase;
 }
 .laser .headermas.headerfisio {
     height: auto;
