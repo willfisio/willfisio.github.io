@@ -203,9 +203,12 @@ div.masd1 p {
 }
 .abterfis h5 {
     color: #023224;
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-weight: 600 !important;
     padding: 0 12px;
+}
+.laser .container-fluid.abterfis .header_text {
+    margin: auto;
 }
 .abterfis p {
     color: rgb(33, 30, 28);
@@ -10472,6 +10475,22 @@ body.bodyfis.laser {
         font-size: 0.8em;
         text-align: center;
         max-width: 100%;
+    }
+    .laser .headermas.headerfisio h1{
+        font-size: 12vw;
+    }
+    .laser .headermas img{
+        display: block;
+    margin: auto;
+    }
+    .headermas div>p.laserbar{
+            padding: 12px 20px;
+    max-width: 80%;
+    }
+    .laser div.contatocont .col-lg-3{
+        flex: none;
+    margin: auto;
+    max-width: 90% !important;
     }
     .atendline{
         display: none;
