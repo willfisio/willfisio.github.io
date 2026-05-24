@@ -10310,7 +10310,7 @@ h6,
 }
 .laser .headermas.headerfisio h1 span {
     font-weight: 400;
-    color: #4f6c25;
+    color: #14512d;
 }
 .laser .headermas div>p {
     color: #fff;
@@ -10378,19 +10378,22 @@ h6,
 .fisio4 {
     background-image: url(/img/laser4.jpg);
 }
-.home.fisio1 {
+.home.laser .headermas img {
+    max-width: 350px !important;
+}
+.home .fisio1 {
     background-image: url(/img/hh1.jpg);
 }
-.home.fisio2 {
+.home .fisio2 {
     background-image: url(/img/h2.jpg);
 }
-.home.fisio3 {
+.home .fisio3 {
     background-image: url(/img/hh3.jpg);
 }
-.home.fisio4 {
+.home .fisio4 {
     background-image: url(/img/h4.jpg);
 }
-.home.fisio5 {
+.home .fisio5 {
     background-image: url(/img/h5.jpg);
 }
 .laser div.contatocont .col-lg-3 {
@@ -10415,8 +10418,11 @@ h6,
 .home.laser .headermas.headerfisio {
     background-image: url(/img/bghome.jpg);
     background-color: #f0ede8;
-    background-size: contain;
+    background-size: 70em;
     background-position: 520px top;
+}
+.home .btnaw {
+    margin: 20px 0;
 }
 body.bodyfis.laser {
     background: #fff;
@@ -10575,7 +10581,7 @@ a.agendar {
     font-weight: 500;
     letter-spacing: 1px;
     font-size: 0.85em;
-    color: #4f6c25;
+    color: #14512d;
 }
 .home .btnaw button {
     text-align: center;
