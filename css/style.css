@@ -10378,6 +10378,21 @@ h6,
 .fisio4 {
     background-image: url(/img/laser4.jpg);
 }
+.home.fisio1 {
+    background-image: url(/img/hh1.jpg);
+}
+.home.fisio2 {
+    background-image: url(/img/h2.jpg);
+}
+.home.fisio3 {
+    background-image: url(/img/hh3.jpg);
+}
+.home.fisio4 {
+    background-image: url(/img/h4.jpg);
+}
+.home.fisio5 {
+    background-image: url(/img/h5.jpg);
+}
 .laser div.contatocont .col-lg-3 {
     overflow: hidden;
     background: #fff;
@@ -10464,8 +10479,89 @@ body.bodyfis.laser {
     color: #98ad7b;
     border-color: #98ad7b;
 }
+.home.laser .headermas.headerfisio h1 {
+    font-weight: 100 !important;
+    font-size: 2.8em;
+    max-width: 552px;
+    padding-top: 24px;
+}
+.laser .headermas .agendar img {
+    max-width: 30px !important;
+    margin: 0 8px 0 0;
+}
+a.agendar {
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 1.6rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #14512d;
+    border-color: #14512d;
+    border-radius: 8px;
+    font-weight: 400;
+}
+.home.laser .treemtxt>p {
+    letter-spacing: 1px;
+    font-size: 1em;
+    color: #58972a !important;
+    font-weight: 500;
+}
+.laser .treemtxt i {
+    color: #58972ac7;
+    font-size: 0.9em;
+    padding: 4px;
+}
+.home.laser .treemtxt img {
+    position: absolute;
+    top: 37%;
+    left: 20%;
+    transform: translate(-50%, 100%);
+    width: 50px;
+    max-width: 100% !important;
+    background-color: transparent !important;
+}
+.home.laser .treemtxt span {
+    color: #58972a !important;
+    padding-left: 24px;
+}
+.home.laser .treemtxt h5 {
+    font-weight: 500 !Important;
+    font-size: 1.1em;
+    padding-bottom: 10px;
+}
+.home.laser .fisio1, .home.laser .fisio2, .home.laser .fisio3, .home.laser .fisio4, .home.laser .fisio5 {
+    height: 8em;
+}
+.laser div.contatocont .col-lg-2 {
+    overflow: hidden;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 21%);
+    margin: 1%;
+    flex: 0 0 18%;
+    max-width: 18%;
+    padding: 0;
+}
+.home.laser .treemtxt>h3 {
+    text-align: center;
+    color: #211E1C;
+    font-size: 1.6em;
+    font-weight: 100 !important;
+}
 .laser .headermas img {
     max-width: 480px !important;
+}
+.laser.home .headermas.headerfisio span.masterap {
+    border: 0;
+    max-width: 100%;
+    text-align: left;
+    margin: 0;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 @media (max-width: 991.98px) {
   .navbar-light .navbar-nav .nav-link {
