@@ -10310,7 +10310,7 @@ h6,
 }
 .laser .headermas.headerfisio h1 span {
     font-weight: 400;
-    color: #98ad7b;
+    color: #4f6c25;
 }
 .laser .headermas div>p {
     color: #fff;
@@ -10414,7 +10414,9 @@ h6,
 }
 .home.laser .headermas.headerfisio {
     background-image: url(/img/bghome.jpg);
-    background-color: #021d19;
+    background-color: #f0ede8;
+    background-size: contain;
+    background-position: 520px top;
 }
 body.bodyfis.laser {
     background: #fff;
@@ -10484,10 +10486,12 @@ body.bodyfis.laser {
     border-color: #98ad7b;
 }
 .home.laser .headermas.headerfisio h1 {
-    font-weight: 100 !important;
-    font-size: 2.8em;
+    font-weight: 500 !important;
+    font-size: 3em;
     max-width: 552px;
     padding-top: 24px;
+    color: #211E1C;
+    font-family: DM Serif Display;
 }
 .laser .headermas .agendar img {
     max-width: 30px !important;
@@ -10563,13 +10567,28 @@ a.agendar {
     max-width: 480px !important;
 }
 .laser.home .headermas.headerfisio span.masterap {
-    border: 0;
+        border: 0;
     max-width: 100%;
     text-align: left;
     margin: 0;
     line-height: 20px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 1px;
+    font-size: 0.85em;
+    color: #4f6c25;
+}
+.home .btnaw button {
+    text-align: center;
+    max-width: 215px;
+    font-size: 0.9em;
+    font-weight: 400 !important;
+    padding: 10px 23px;
+}
+.home.laser .headermas div>p {
+    color: #211E1C;
+    font-size: 0.85em;
+    padding: 2em 0 0;
+    max-width: 300px;
 }
 @media (max-width: 991.98px) {
   .navbar-light .navbar-nav .nav-link {
