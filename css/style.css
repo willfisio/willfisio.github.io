@@ -10536,7 +10536,8 @@ a.agendar {
     padding-right: 6px;
 }
 .home .proposito img {
-    max-width: 350px !important;
+    max-width: 310px !important;
+    border-radius: 20px 0 0 20px;
 }
 .home .proposito p {
     font-size: 0.9em;
@@ -10545,7 +10546,7 @@ a.agendar {
     font-weight: 500 !important;
 }
 .home .proposito span {
-    font-size: 0.8em;
+    font-size: 0.75em;
 }
 .home .proposito h4 {
     background: #f5f4f0;
@@ -10586,6 +10587,7 @@ a.agendar {
 }
 .home.laser .fisio1, .home.laser .fisio2, .home.laser .fisio3, .home.laser .fisio4, .home.laser .fisio5 {
     height: 8em;
+        background-position: 0 -40px;
 }
 .laser div.contatocont .col-lg-2 {
     overflow: hidden;
