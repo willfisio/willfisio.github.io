@@ -10553,9 +10553,14 @@ a.agendar {
     font-family: DM Serif Display;
     color: #14512d;
     font-weight: 100 !important;
-    padding: 1em;
+    padding: 2.5em 1.9em;
     font-size: 1.2em;
     border-radius: 12px;
+}
+.home .proposito h4 img {
+    max-width: 30px !important;
+    display: block;
+    margin: 0 0 5px -10px;
 }
 .home .proposito h5 {
     font-family: DM Serif Display;
