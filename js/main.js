@@ -109,12 +109,12 @@
 // Used bootstrap v4.5,jquery v3.5.1, owl carousel v2, font awesome v4.7.0
 
 $('.testi.owl-carousel').owlCarousel({
-  items: 3,
-  margin:10,
-  lazyLoad: true,
-  dots:true,
-  autoPlay: true,
-  autoPlayTimeout: 3000,
+  autoplay: true,
+        smartSpeed: 1500,
+        margin: 30,
+        dots: true,
+        loop: true,
+
   responsive:{
     0:{
       items:1,

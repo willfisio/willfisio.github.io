@@ -10331,7 +10331,7 @@ h6,
 .testimonials .title p {margin: 0 0 10px;margin-bottom: 0;color: #5A3733;}
 .testimonials .testi .item {background: #fff;
     padding: 25px 25px;
-    margin: 0 16px;
+    margin: 12px 16px;
     border-radius: 12px;
     box-shadow: 0 2px 6px 0 rgb(0 0 0 / 21%);}
 .testimonials .testi .item .profile {display:flex;padding-left: 15px;}
@@ -10345,13 +10345,14 @@ h6,
     color: #14512d;
     font-weight: 600;
     line-height: 1;}
-.testimonials .testi .item .profile .information span {color: #EB6D2F;font-weight: bold;margin-top: -4px;line-height: 1.6em;font-size: 14px;}
+.testimonials .testi .item .profile .information span {color: #211E1C;font-weight: bold;margin-top: -4px;line-height: 1.6em;font-size: 14px;}
 .testimonials .testi .item>p {margin-bottom: 15px;
     line-height: 1.6em;
     display: block;
     z-index: 2;
     text-align: left;
     color: #211E1C;
+    font-style: normal;
     font-size: 0.85em;
     padding: 0 16px 0;
     max-width: 300px;}
