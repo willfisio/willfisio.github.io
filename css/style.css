@@ -10530,6 +10530,9 @@ a.agendar {
     font-size: 0.9em;
     padding: 4px;
 }
+.home .proposito img {
+    max-width: 350px !important;
+}
 .home.laser .treemtxt img {
     position: absolute;
     top: 37%;
