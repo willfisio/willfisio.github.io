@@ -10355,7 +10355,7 @@ h6,
 .laser .fisio1, .laser .fisio2, .laser .fisio3, .laser .fisio4 {
     height: 12em;
 }
-.fisio1, .fisio2, .fisio3, .fisio4 {
+.fisio1, .fisio2, .fisio3, .fisio4, .fisio5 {
     position: relative;
     display: block;
     
@@ -10410,6 +10410,10 @@ h6,
 }
 .laser .headermas.headerfisio {
     background-image: url(/img/bglaser.jpg);
+    background-color: #021d19;
+}
+.home.laser .headermas.headerfisio {
+    background-image: url(/img/bghome.jpg);
     background-color: #021d19;
 }
 body.bodyfis.laser {
@@ -10524,8 +10528,11 @@ a.agendar {
     background-color: transparent !important;
 }
 .home.laser .treemtxt span {
-    color: #58972a !important;
+        color: #58972a !important;
     padding-left: 24px;
+    position: absolute;
+    bottom: 12px;
+    font-size: 0.9em;
 }
 .home.laser .treemtxt h5 {
     font-weight: 500 !Important;
@@ -10544,6 +10551,7 @@ a.agendar {
     flex: 0 0 18%;
     max-width: 18%;
     padding: 0;
+    height: 310px;
 }
 .home.laser .treemtxt>h3 {
     text-align: center;
