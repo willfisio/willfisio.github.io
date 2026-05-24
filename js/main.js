@@ -138,7 +138,7 @@
         margin: 30,
         dots: true,
         loop: true,
-        items: 1
+        items: 3
     });
     
 })(jQuery);

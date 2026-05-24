@@ -10417,9 +10417,9 @@ h6,
 }
 .home.laser .headermas.headerfisio {
     background-image: url(/img/bghome.jpg);
-    background-color: #f0ede8;
+    background-color: #e3e3d9;
     background-size: 82em;
-    background-position: 520px top;
+    background-position: 383px top;
 }
 .home .btnaw {
     margin: 20px 0;
@@ -10520,7 +10520,7 @@ a.agendar {
 .home.laser .treemtxt>p {
     letter-spacing: 1px;
     font-size: 1em;
-    color: #58972a !important;
+    color: #14512d !important;
     font-weight: 500;
     max-width: 100%;
     padding: 0 !important;
