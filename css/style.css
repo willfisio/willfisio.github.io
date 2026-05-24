@@ -10352,6 +10352,9 @@ h6,
     padding: 2em 0 0 !important;
     background-position: 640px top;
 }
+.laser .fisio1, .laser .fisio2, .laser .fisio3, .laser .fisio4 {
+    height: 12em;
+}
 .fisio1, .fisio2, .fisio3, .fisio4 {
     position: relative;
     display: block;
@@ -10435,7 +10438,7 @@ body.bodyfis.laser {
 }
 .laser .treemtxt img {
     position: absolute;
-    top: 24%;
+    top: 42%;
     left: 20%;
     transform: translate(-50%, 100%);
     width: 67px;
@@ -10479,9 +10482,9 @@ body.bodyfis.laser {
     .laser .headermas.headerfisio h1{
         font-size: 12vw;
     }
-    .laser .headermas img{
+    .laser .headermas .laserbar img{
         display: block;
-    margin: auto;
+        margin: auto;
     }
     .headermas div>p.laserbar{
             padding: 12px 20px;
