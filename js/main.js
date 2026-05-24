@@ -138,7 +138,20 @@
         margin: 30,
         dots: true,
         loop: true,
-        items: 3
+        responsive: {
+            0:
+            {
+                items:1
+            },
+            720:
+            {
+                items:2
+            },
+            1199:
+            {
+                items:4
+            }
+        }
     });
     
 })(jQuery);
