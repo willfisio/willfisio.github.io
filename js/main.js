@@ -107,9 +107,21 @@
         }
     });
 // Used bootstrap v4.5,jquery v3.5.1, owl carousel v2, font awesome v4.7.0
+// set owl-carousel width equals to owl-wrapper width
+    function owlWrapperWidth( selector ) {
+      $(selector).each(function(){
+        $(this).find('.owl-carousel').outerWidth( $(this).closest( selector ).innerWidth() );
+      });
+    }
 
-$('.testi.owl-carousel').owlCarousel({
-  autoplay: true,
+    // trigger on start and resize
+    owlWrapperWidth( '.owl-wrapper' );
+    $( window ).resize(function() {
+      owlWrapperWidth( $('.owl-wrapper') );
+    });
+
+   // then trigger owl Carousel
+   $('.owl-carousel').owlCarousel({autoplay: true,
         smartSpeed: 1500,
         margin: 30,
         dots: true,
@@ -125,8 +137,8 @@ $('.testi.owl-carousel').owlCarousel({
     1000:{
       items:3,
     }
-  }
-});
+  }});
+
 
     // Pricing carousel
     $(".pricing-carousel").owlCarousel({
@@ -139,10 +151,10 @@ $('.testi.owl-carousel').owlCarousel({
         rewind : true,
         responsive: {
             0:{
-                items:1
+                items:3
             },
             576:{
-                items:1
+                items:3
             },
             768:{
                 items:2
