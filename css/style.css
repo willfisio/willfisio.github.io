@@ -10701,7 +10701,7 @@ a.agendar {
     .home.laser .fisio1, .home.laser .fisio2, .home.laser .fisio3, .home.laser .fisio4, .home.laser .fisio5 {
     height: 8em;
     background-position: 0 -10em;
-}
+} 
     .home .proposito h4 {
     margin: 2em;
     padding: 2em 2.5em;
@@ -10742,7 +10742,8 @@ a.agendar {
     font-size: 0.9em;
     padding: 0 2.5px;
     line-height: 1px;
-}.dren .row div p span {
+}
+    .dren .row div p span {
     position: absolute;
     left: -26px;
     top: -3px;
