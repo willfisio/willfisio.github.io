@@ -323,7 +323,61 @@ color: #14512d;
 .headermas h1{
     font-weight: 800 !important;
 }
-
+.dren .row div p {
+    color: rgb(33, 30, 28);
+    max-width: 147px;
+    font-size: 0.7em;
+    left: 40px;
+    top: 190px;
+    margin: 0;
+    position: absolute;
+}
+    .dren .row div p i {
+    color: #023224;
+    font-size: 0.9em;
+    padding: 0 2.5px;
+    line-height: 1px;
+}
+    .dren .row div p span {
+    position: absolute;
+    left: -26px;
+    top: -3px;
+    border: 2px solid #023224;
+    border-radius: 200px;
+    line-height: 14px;
+    padding-top: 1px;
+}
+    
+    .dren img {
+    max-width: 90px;
+    max-height: 90px;
+    display: block;
+    position: relative;
+    margin: 50px 24px 64px 24px;
+}
+    .dren>div {
+    background: #fdfdfd;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 21%);
+    position: relative;
+    background-image: url(/img/drenagemfull.png);
+    background-position: 722px -10px;
+    background-size: 550px;
+    background-repeat: no-repeat;
+}
+    
+    .drenmob {
+    display: none;
+}
+    .dren h5 {
+    color: #023224;
+    font-size: 1.4em;
+    font-weight: 600 !important;
+    position: absolute;
+    top: 1em;
+    left: 120px;
+}
 .headersobre div>p, .headermas div>p {
 color: #211E1C;
     max-width: 438px;
@@ -10728,61 +10782,7 @@ a.agendar {
             padding: 12px 20px;
     max-width: 80%;
     }
-    .dren .row div p {
-    color: rgb(33, 30, 28);
-    max-width: 147px;
-    font-size: 0.7em;
-    left: 40px;
-    top: 190px;
-    margin: 0;
-    position: absolute;
-}
-    .dren .row div p i {
-    color: #023224;
-    font-size: 0.9em;
-    padding: 0 2.5px;
-    line-height: 1px;
-}
-    .dren .row div p span {
-    position: absolute;
-    left: -26px;
-    top: -3px;
-    border: 2px solid #023224;
-    border-radius: 200px;
-    line-height: 14px;
-    padding-top: 1px;
-}
     
-    .dren img {
-    max-width: 90px;
-    max-height: 90px;
-    display: block;
-    position: relative;
-    margin: 50px 24px 64px 24px;
-}
-    .dren>div {
-    background: #fdfdfd;
-    overflow: hidden;
-    border-radius: 12px;
-    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 21%);
-    position: relative;
-    background-image: url(/img/drenagemfull.png);
-    background-position: 722px -10px;
-    background-size: 550px;
-    background-repeat: no-repeat;
-}
-    
-    .drenmob {
-    display: none;
-}
-    .dren h5 {
-    color: #023224;
-    font-size: 1.4em;
-    font-weight: 600 !important;
-    position: absolute;
-    top: 1em;
-    left: 120px;
-}
     .laser div.contatocont .col-lg-3{
         flex: none;
     margin: auto;
