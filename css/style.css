@@ -383,6 +383,7 @@ img.drenmob {
     .drenmob {
     display: none;
 }
+
 .dor .infomas .destaque {
     color: #af7d31;
     border: none;
@@ -403,6 +404,43 @@ img.drenmob {
     font-family: DM Serif Display;
     font-size: 3em;
     margin: 0;
+}
+.dor div.masd1 p>span {
+    position: absolute;
+    left: -24px;
+    top: 0;
+    border: 2px solid #023224;
+    border-radius: 200px;
+    line-height: 12px;
+    padding-top: 1px;
+    background: #023224;
+}
+.dor .infomas .fa.fad.fa-check {
+    color: #fff;
+    font-size: 0.9em;
+    padding: 0 2.5px;
+    line-height: 1px;
+}
+.dor div.masd1 p {
+    color: #211E1C;
+    position: relative;
+    background: none;
+    font-weight: 600 !important;
+    font-size: 0.8em;
+    left: 0;
+}
+.dor .infomas .col-lg-3 {
+    flex: 0 0 18%;
+    max-width: 18%;
+    text-align: left;
+    margin: 0;
+}
+.dor .infomas .container.pt-5 .row {
+    justify-content: left;
+}
+.dor .infomas .col-lg-8>.row {
+    justify-content: left;
+    margin-left: 12px;
 }
 .dor .infomas h3 {
     color: #14512d;
