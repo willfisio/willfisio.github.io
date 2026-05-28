@@ -377,9 +377,21 @@ img.drenmob {
     background-size: 550px;
     background-repeat: no-repeat;
 }
-    
+    .dor .infomas .container {
+    background: #fff;
+}
     .drenmob {
     display: none;
+}
+.dor .infomas .destaque {
+    color: #af7d31;
+    border: none;
+}
+.dor .infomas span.destaque i {
+    font-weight: 700;
+}
+.dor .infomas h3 {
+    color: #14512d;
 }
     .dren h5 {
         color: #023224;
