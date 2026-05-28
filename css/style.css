@@ -417,6 +417,10 @@ img.drenmob {
     margin: 0;
     font-family: "Poppins", sans-serif;
 }
+.dor .bene .col-lg-2 {
+    max-width: 11%;
+    flex: 0 0 11%;
+}
 .infomas .col-lg-4 img.icondortera {
     position: absolute;
     top: 16px;
