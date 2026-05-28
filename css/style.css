@@ -422,8 +422,41 @@ img.drenmob {
     left: 16px;
     border: 0.1em solid #af7d316e;
 }
+.dor .headermas div>p {
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: 100 !important;
+    max-width: 340px;
+}
+.dor .headermas img {
+    max-width: 350px;
+}
+.dor .container-fluid.infomas {
+    margin-top: 0 !important;
+}
+.dor .headermas span.masterap {
+    color: #af7d31;
+    border: 0;
+    max-width: 51px;
+    border-bottom: 2px solid #af7d31;
+    border-radius: 0;
+    font-size: 1.2em;
+    text-align: left;
+    line-height: 40px;
+}
+.dor .headermas h1 {
+    color: #fff;
+    font-weight: 100 !important;
+    font-family: DM Serif Display;
+    font-size: 4em;
+}
 .dor .container-fluid.py-5.headermas {
-    background-image: url(/img/bannertopodor.png);
+    background-image: url(/img/Bannertopodor.png);
+    background-position: 480px bottom;
+    background-repeat: no-repeat;
+    height: 530px;
+    background-color: #000c08;
+    background-size: 60%;
 }
 .dor div.masd1 p>span {
         position: absolute;
@@ -434,6 +467,14 @@ img.drenmob {
     line-height: 12px;
     padding-top: 1px;
     background: #023224;
+}
+.dor .infomas .container>.row.align-items-center {
+    overflow: hidden;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 21%);
+    margin: 1%;
+    padding: 0;
 }
 .dor .infomas .fa.fad.fa-check {
     color: #fff;
