@@ -386,9 +386,23 @@ img.drenmob {
 .dor .infomas .destaque {
     color: #af7d31;
     border: none;
+    margin: 0;
+    text-align: left;
 }
 .dor .infomas span.destaque i {
     font-weight: 700;
+}
+.dor .infomas span {
+    color: #211E1C;
+    font-weight: 500 !important;
+    line-height: normal;
+    padding: 0;
+}
+.dor .infomas .col-lg-8>p {
+    color: #211E1C;
+    font-family: DM Serif Display;
+    font-size: 3em;
+    margin: 0;
 }
 .dor .infomas h3 {
     color: #14512d;
