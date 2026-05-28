@@ -389,12 +389,26 @@ img.drenmob {
     padding: 0;
 }
 .dor .infomas .destaque {
-    color: #af7d31;
+    color: #cea366;
     border: none;
         margin-bottom: 6px;
     text-align: left;
     max-width: 250px;
     font-size: 0.75em;
+}
+.abt h6 {
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: 100 !important;
+}
+.abt.bene p {
+    color: #fff;
+}
+.dor .abt.bene .col-lg-2 {
+    max-width: 14%;
+    flex: 0 0 14%;
+    border-left: 1px solid #e7e7e75e;
+    margin-bottom: 16px;
 }
 .dor .infomas .row>.col-lg-8 {
     padding-left: 32px;
@@ -411,6 +425,10 @@ img.drenmob {
     font-size: 0.75em;
     max-width: 360px;
 }
+.abt .container {
+    background: #011f18;
+    border-radius: 12px;
+}
 .dor .infomas .col-lg-8>p {
         color: #023224;
     font-size: 1.6em;
@@ -426,7 +444,7 @@ img.drenmob {
     top: 16px;
     max-width: 80px;
     left: 16px;
-    border: 0.1em solid #af7d316e;
+    border: 0.1em solid #cea366;
 }
 .dor .headermas div>p {
     color: #ffffffd4;
@@ -457,10 +475,10 @@ img.drenmob {
     margin-top: 0 !important;
 }
 .dor .headermas span.masterap {
-    color: #af7d31;
+    color: #cea366;
     border: 0;
     max-width: 51px;
-    border-bottom: 2px solid #af7d31;
+    border-bottom: 2px solid #cea366;
     border-radius: 0;
     font-size: 1.2em;
     text-align: left;
