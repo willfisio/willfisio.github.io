@@ -423,6 +423,16 @@ img.drenmob {
     font-weight: 500 !important;
     font-size: 1.1em;
 }
+.invterap h4 {
+    color: #211E1C;
+    font-weight: 100 !important;
+    font-family: DM Serif Display;
+    font-size: 1.7em;
+}
+.invterap.invmasso .col-lg-3.mt-4.p0 {
+    flex: 0 0 19%;
+    max-width: 19%;
+}
 .header_text.flex_column_center>p {
     color: #211E1C;
     font-weight: 500 !important;
