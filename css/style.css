@@ -545,6 +545,7 @@ a.btnagendar {
     max-width: 80px;
     left: 16px;
     border: 0.1em solid #cea366;
+    border-radius: 12px;
 }
 .dor .headermas div>p {
     color: #ffffffd4;
