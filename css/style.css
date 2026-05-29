@@ -412,6 +412,9 @@ img.drenmob {
 .headerinv {
     text-align: center;
 }
+.hgtm {
+    height: 280px;
+}
 .headerinv h2 {
     color: #211E1C;
     font-weight: 100 !important;
