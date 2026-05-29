@@ -473,6 +473,26 @@ img.drenmob {
     font-size: 1.2em;
     margin: 0;
 }
+.hgt {
+    height: 258px;
+}
+.invterap .col-lg-3.mt-4.p0 {
+    background: #fdfdfd;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 21%);
+    position: relative;
+    margin: 6px;
+    flex: 0 0 23%;
+    max-width: 23%;
+    height: 500px;
+    align-items: flex-end;
+}
+a.btnagendar i {
+    color: #cea366;
+    padding-left: 5px;
+    font-size: 1.2em;
+}
 .valor p span {
     font-size: 1.5em;
     font-weight: 500 !important;
@@ -495,6 +515,49 @@ a.btnagendar {
     display: block;
     margin: 16px auto 12px;
     max-width: 200px;
+        text-decoration: none !important;
+}
+.invterap img {
+    border: 1px solid #023224;
+    border-radius: 50%;
+    padding: 6px;
+    margin: 24px 0 0;
+}
+.invterap span.destaque i {
+    font-size: 1em;
+}
+.invterap span.destaque {
+    background: #b37f35;
+    border-radius: 12px;
+    color: #fff;
+    border: none;
+    margin: 16px auto 0;
+    max-width: 170px;
+    font-size: 0.75em;
+    display: block;
+    text-align: center;
+    padding: 4px;
+}
+a.btnsaiba i {
+    font-size: 1em;
+    right: 0;
+    position: relative;
+    float: right;
+    line-height: 20px;
+    padding-right: 10px;
+}
+a.btnsaiba {
+    background: #fff;
+    color: #023224;
+    border: 1px solid #023224;
+    padding: 10px 22px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    display: block;
+    margin: 16px auto 12px;
+    max-width: 200px;
+    text-decoration: none !important;
 }
 .valor>span {
     color: #211E1C;
