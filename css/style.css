@@ -3035,8 +3035,8 @@ pre code {
 
 @media (max-width: 991.98px) {
     .navbar-light .navbar-brand {
-    margin: auto;
-    padding-left: 12px;
+    margin: 0;
+    padding-left: 0;
 }
     .navbarcontact{
         display: flex !important;
@@ -5267,13 +5267,16 @@ input[type="button"].btn-block {
 }
 
 .navbar-toggler {
-  padding: 0.25rem 0.75rem;
+  padding: 0;
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
 }
-
+div#navbarCollapse {
+    border-top: 1px solid #cea366;
+    margin-top: 12px;
+}
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
 }
@@ -5498,14 +5501,10 @@ input[type="button"].btn-block {
   color: rgba(0, 0, 0, 0.9);
 }
 
-.navbar-light .navbar-toggler {
-    border-radius: 6px;
-  color: rgba(0, 0, 0, 0.5);
-  border-color: rgba(0, 0, 0, 0.1);
-}
+
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='%23023224' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .navbar-light .navbar-text {
@@ -11155,6 +11154,42 @@ a.agendar {
   .navbar-light .navbar-nav .nav-link {
     padding: 10px 15px;
   }
+    a.nav-item.nav-link {
+    color: #023224 !important;
+}
+    nav.navbar.navbar-expand-lg.bg-white.navbar-light.py-3.py-lg-0.px-lg-5 {
+    justify-content: space-between;
+}
+    a.agendarheader {
+    margin: 20px auto !important;
+    display: block;
+    text-align: center;
+}
+    .agendarheadermobile i {
+    color: #cea366;
+    padding-right: 5px;
+    font-size: 16px;
+}
+    a.agendarheadermobile {
+    display: block;
+    background: #023224;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    border: 1px solid #cea366;
+    max-width: 173px;
+    font-size: 0.7em;
+    margin-right: 6px;
+}
+    .logo {
+    max-width: 35px;
+}
+    .navbar-brand p {
+    font-size: 1em;
+    margin: 14px 8px;
+}
     .home .btnaw {
     margin: 40px 0 -40px 0;
 }
