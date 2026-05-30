@@ -11042,6 +11042,14 @@ body.bodyfis.laser {
     object-fit: cover;
     object-position: center center;
 }
+.suprafooter img.logo {
+    position: absolute;
+    width: 200px;
+    max-width: 100% !important;
+    opacity: 0.1;
+    top: -60px;
+    left: -60px;
+}
 .headermas div>p.laserbar {
     max-width: 64%;
     background-color: #021d19;
@@ -11109,6 +11117,39 @@ a.agendar {
     letter-spacing: 0.5px;
     margin-bottom: 0;
     font-weight: 500 !important;
+}
+   .suprafooter {
+    background-color: #023224 !important;
+            border-bottom: 1px solid #cea36652;
+}
+    .suprafooter a.agendarheader i {
+    color: #023224;
+}
+    .suprafooter a.agendarheader {
+    background: #cea366;
+    color: #023224;
+    display: block;
+    max-width: 210px;
+}
+    a.agendarheader.fw {
+    background: #023224;
+    color: #fff;
+    font-size: 0.9em;
+    max-width: 250px;
+    margin-top: 18px;
+}
+    
+    a.agendarheader.fw img {
+    margin-right: 7px !important;
+}
+    .suprafooter p {
+    color: #fff !important;
+    font-family: DM Serif Display;
+    font-size: 2.3em;
+}
+    .suprafooter span {
+    color: #fff;
+    font-size: 0.9em;
 }
 .home .proposito span {
     font-size: 0.75em;
@@ -11232,46 +11273,7 @@ a.agendar {
     display: block;
     text-align: center;
 }
-    .suprafooter {
-    background-color: #023224 !important;
-            border-bottom: 1px solid #cea36652;
-}
-    .suprafooter a.agendarheader i {
-    color: #023224;
-}
-    .suprafooter a.agendarheader {
-    background: #cea366;
-    color: #023224;
-    display: block;
-    max-width: 210px;
-}
-    a.agendarheader.fw {
-    background: #023224;
-    color: #fff;
-    font-size: 0.9em;
-    max-width: 250px;
-    margin-top: 18px;
-}
-    .suprafooter img.logo {
-    position: absolute;
-    width: 200px;
-    max-width: 100% !important;
-    opacity: 0.1;
-    top: -60px;
-    left: -60px;
-}
-    a.agendarheader.fw img {
-    margin-right: 7px !important;
-}
-    .suprafooter p {
-    color: #fff !important;
-    font-family: DM Serif Display;
-    font-size: 2.3em;
-}
-    .suprafooter span {
-    color: #fff;
-    font-size: 0.9em;
-}
+ 
     .agendarheadermobile i {
     color: #cea366;
     padding-right: 5px;
