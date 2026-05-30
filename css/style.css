@@ -11154,6 +11154,10 @@ a.agendar {
   .navbar-light .navbar-nav .nav-link {
     padding: 10px 15px;
   }
+    .navbar-brand p {
+    font-size: 0.8em;
+    margin: 14px 8px;
+}
     a.nav-item.nav-link {
     color: #023224 !important;
 }
@@ -11168,14 +11172,14 @@ a.agendar {
     .agendarheadermobile i {
     color: #cea366;
     padding-right: 5px;
-    font-size: 16px;
+    font-size: 12px;
 }
     a.agendarheadermobile {
-    display: block;
+    display: block !important;
     background: #023224;
     color: #fff;
     text-decoration: none;
-    padding: 10px 22px;
+    padding: 10px;
     border-radius: 8px;
     text-transform: uppercase;
     border: 1px solid #cea366;
