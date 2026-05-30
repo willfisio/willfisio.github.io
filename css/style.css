@@ -10751,6 +10751,15 @@ a.text-primary:hover, a.text-primary:hover i, a.text-primary:focus {
     border-color: #cea366;
     border-radius: 50%;
 }
+.footer i.fa {
+    color: #cea366 !important;
+    font-size: 1em;
+}
+.footer .d-flex.flex-column.justify-content-start a {
+    border-bottom: 1px solid #cea36652;
+    margin: 0 0 12px !important;
+    padding-bottom: 6px;
+}
 .footer.container-fluid.position-relative.bg-dark {
     background: #011e12 !important;
 }
@@ -10768,6 +10777,7 @@ a.text-primary:hover, a.text-primary:hover i, a.text-primary:focus {
 }
 .footer .row img {
     max-width: 60px !important;
+    background-color: transparent !important;
 }
 .footer .d-flex p i {
     position: absolute;
@@ -11540,6 +11550,14 @@ a.agendar {
 .footer i {
   color: #fff !important;
 }
+.footerunder * {
+    color: #ffffffa1 !important;
+    font-size: 0.95em;
+}
+.footerunder {
+    background: #011e12 !important;
+    border-color: #cea36652 !important;
+}
 
 .footer .btn-primary i {
   color: #cea366 !important;
@@ -11548,7 +11566,7 @@ a.agendar {
     -webkit-text-stroke: 0;
 }
 @media (min-width: 992px) {
-  .footer::after {
+  /*.footer::after {
     position: absolute;
     content: "";
     width: 1px;
@@ -11556,7 +11574,7 @@ a.agendar {
     top: 0;
     left: 50%;
     background: rgba(255, 255, 255, 0.15);
-  }
+  }*/
 }
 
 .contact-form .help-block ul {
