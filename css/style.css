@@ -5273,10 +5273,7 @@ input[type="button"].btn-block {
   background-color: transparent;
   border: 1px solid transparent;
 }
-div#navbarCollapse {
-    border-top: 1px solid #cea366;
-    margin-top: 12px;
-}
+
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
 }
@@ -11154,6 +11151,10 @@ a.agendar {
   .navbar-light .navbar-nav .nav-link {
     padding: 10px 15px;
   }
+    div#navbarCollapse {
+    border-top: 1px solid #cea366;
+    margin-top: 12px;
+}
     .navbar-brand p {
     font-size: 0.8em;
     margin: 14px 8px;
