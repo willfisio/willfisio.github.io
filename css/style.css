@@ -11252,6 +11252,14 @@ a.agendar {
     max-width: 250px;
     margin-top: 18px;
 }
+    .suprafooter img.logo {
+    position: absolute;
+    width: 200px;
+    max-width: 100% !important;
+    opacity: 0.1;
+    top: -60px;
+    left: -60px;
+}
     a.agendarheader.fw img {
     margin-right: 7px !important;
 }
