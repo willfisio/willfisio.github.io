@@ -10474,7 +10474,7 @@ button.bg-dark:focus {
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #f56649 !important;
+  color: #cea366 !important;
 }
 
 .text-secondary {
@@ -10739,12 +10739,18 @@ h6,
     font-size: 0.9em;
 }
 a.agendarheader {
-    background: #023224;
+       background: #023224;
     color: #fff;
     text-decoration: none;
     padding: 10px 22px;
     border-radius: 8px;
     text-transform: uppercase;
+    border: 1px solid #cea366;
+}
+a.agendarheader:hover {
+    color: #023224;
+    background: #fff;
+    border-color: #cea366;
 }
 .agendarheader i {
     color: #cea366;
@@ -10753,6 +10759,7 @@ a.agendarheader {
 }
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
+        text-decoration-color: #cea366;
   color: #a9a9a9;
 }
 .infomas.infofis .col-lg-4 img {
