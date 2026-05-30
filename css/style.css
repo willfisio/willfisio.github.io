@@ -5483,7 +5483,8 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
+  text-decoration-color: #cea366;
+    color: #373534;
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
