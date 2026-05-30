@@ -10738,6 +10738,9 @@ h6,
 a.text-primary:hover, a.text-primary:hover i, a.text-primary:focus {
   color: #cea366 !important;
 }
+.footer .navbar-brand p {
+    font-size: 2em;
+}
 .footer .navbar-brand span {
     color: #cea366;
     text-align: left;
@@ -10748,8 +10751,11 @@ a.text-primary:hover, a.text-primary:hover i, a.text-primary:focus {
     border-color: #cea366;
     border-radius: 50%;
 }
+.footer.container-fluid.position-relative.bg-dark {
+    background: #011e12 !important;
+}
 .footer .row img {
-    max-width: 50px !important;
+    max-width: 60px !important;
 }
 a.agendarheader {
        background: #023224;
