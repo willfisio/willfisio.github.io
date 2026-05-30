@@ -10754,8 +10754,34 @@ a.text-primary:hover, a.text-primary:hover i, a.text-primary:focus {
 .footer.container-fluid.position-relative.bg-dark {
     background: #011e12 !important;
 }
+.footer h5 {
+    color: #cea366 !important;
+    text-transform: uppercase;
+    margin: 0px 0 15px -30px !important;
+    font-size: 1.1em;
+}
+.sepfooter {
+    width: 50px;
+    height: 1px;
+    border-bottom: 1px solid #cea366;
+    margin: 0px 24px 18px -30px;
+}
 .footer .row img {
     max-width: 60px !important;
+}
+.footer .d-flex p i {
+    position: absolute;
+    left: -51px;
+    color: #cea366 !important;
+    font-size: 2.4em;
+    margin: 0 !important;
+    top: -11px;
+}
+.footer .d-flex p {
+    font-size: 0.9em;
+    margin-bottom: 41px;
+    position: relative;
+    margin-left: 20px;
 }
 a.agendarheader {
        background: #023224;
