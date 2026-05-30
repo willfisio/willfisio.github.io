@@ -1015,6 +1015,7 @@ a.navbar-brand:hover img {
 }
 .navbar-nav a:hover {
     text-decoration: overline;
+    text-decoration-color: #cea366;
 }
 .main_text_item p {
     display: block;
