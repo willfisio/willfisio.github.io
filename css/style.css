@@ -10738,6 +10738,19 @@ h6,
 a.text-primary:hover, a.text-primary:hover i, a.text-primary:focus {
   color: #cea366 !important;
 }
+.footer .navbar-brand span {
+    color: #cea366;
+    text-align: left;
+}
+.footer a.btn.btn-lg.btn-primary.btn-lg-square.mr-2 {
+    color: #cea366 !important;
+    background: transparent;
+    border-color: #cea366;
+    border-radius: 50%;
+}
+.footer .row img {
+    max-width: 50px !important;
+}
 a.agendarheader {
        background: #023224;
     color: #fff;
@@ -11497,7 +11510,7 @@ a.agendar {
 }
 
 .footer .btn-primary i {
-  color: #fff !important;
+  color: #cea366 !important;
 }
 .fab {
     -webkit-text-stroke: 0;
