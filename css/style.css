@@ -11232,6 +11232,35 @@ a.agendar {
     display: block;
     text-align: center;
 }
+    .suprafooter {
+    background-color: #023224 !important;
+            border-bottom: 1px solid #cea36652;
+}
+    .suprafooter a.agendarheader i {
+    color: #023224;
+}
+    .suprafooter a.agendarheader {
+    background: #cea366;
+    color: #023224;
+    display: block;
+    max-width: 210px;
+}
+    a.agendarheader.fw {
+    background: #023224;
+    color: #fff;
+    font-size: 0.9em;
+    max-width: 250px;
+    margin-top: 18px;
+}
+    .suprafooter p {
+    color: #fff !important;
+    font-family: DM Serif Display;
+    font-size: 2.3em;
+}
+    .suprafooter span {
+    color: #fff;
+    font-size: 0.9em;
+}
     .agendarheadermobile i {
     color: #cea366;
     padding-right: 5px;
