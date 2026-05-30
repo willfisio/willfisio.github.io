@@ -11162,7 +11162,7 @@ a.agendar {
     color: #023224 !important;
 }
     nav.navbar.navbar-expand-lg.bg-white.navbar-light.py-3.py-lg-0.px-lg-5 {
-    justify-content: space-between;
+    justify-content: space-between !important;
 }
     a.agendarheader {
     margin: 20px auto !important;
@@ -11190,10 +11190,7 @@ a.agendar {
     .logo {
     max-width: 35px;
 }
-    .navbar-brand p {
-    font-size: 1em;
-    margin: 14px 8px;
-}
+   
     .home .btnaw {
     margin: 40px 0 -40px 0;
 }
