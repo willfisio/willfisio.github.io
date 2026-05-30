@@ -11252,6 +11252,9 @@ a.agendar {
     max-width: 250px;
     margin-top: 18px;
 }
+    a.agendarheader.fw img {
+    margin-right: 7px !important;
+}
     .suprafooter p {
     color: #fff !important;
     font-family: DM Serif Display;
