@@ -7373,7 +7373,7 @@ button.bg-light:focus {
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
-  background-color: #050505 !important;
+  background-color: #011e12 !important;
 }
 
 .bg-white {
@@ -11493,7 +11493,7 @@ a.agendar {
 .footer p,
 .footer a,
 .footer i {
-  color: #CCCCCC !important;
+  color: #fff !important;
 }
 
 .footer .btn-primary i {
