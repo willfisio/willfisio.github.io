@@ -409,11 +409,41 @@ img.drenmob {
     margin-top: 24px;
     margin: 24px auto 10px;
 }
+.headermain * {
+    color: #525252 !important;
+    background: #fff;
+}
+.headermain i {
+    font-size: 1em;
+    vertical-align: middle;
+}
+.headermain {
+    border-bottom: 1px solid #cfcfcf;
+}
 .headerinv {
     text-align: center;
 }
 .hgtm {
     height: 280px;
+}
+.navbar-brand p {
+    float: right;
+    color: #023224;
+    font-size: 1.3em;
+    font-family: DM Serif Display;
+    text-align: center;
+    margin: 14px 14px;
+}
+.navbar-brand span {
+    font-family: Poppins, sans-serif;
+    color: #211E1C;
+    font-size: 0.4em;
+    display: block;
+    line-height: 7px;
+    text-transform: uppercase;
+}
+.navbar-brand b {
+    color: #14512d;
 }
 .headerinv h2 {
     color: #211E1C;
@@ -1029,7 +1059,8 @@ a.navbar-brand:hover img {
     display: inline-block;
 }
 .navbarcontainer {
-    border-bottom: 2px solid #e7e7e7;
+    border-bottom: 2px solid #cea366;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 12%);
 }
 .contatocont iframe {
     max-width: 100%;
@@ -10702,12 +10733,24 @@ h6,
 
 .navbar-light .navbar-nav .nav-link {
   padding: 30px 15px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  color: #211E1C;
-  outline: none;
+    font-weight: 500;
+    color: #211E1C;
+    outline: none;
+    font-size: 0.9em;
 }
-
+a.agendarheader {
+    background: #023224;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+.agendarheader i {
+    color: #cea366;
+    padding-right: 5px;
+    font-size: 16px;
+}
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
   color: #a9a9a9;
