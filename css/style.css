@@ -11254,6 +11254,68 @@ a.agendar {
     .footer .col-sm-6.p-0.mb-5 {
     margin: 24px 0 0 40px !important;
 }
+    .dor .infomas .destaque {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 0.9em;
+}
+    .dor div.masd1 p {
+    max-width: 172px;
+    margin: 2px auto;
+    text-align: center;
+}
+    .dor div.masd1 p:first-child {
+    margin-bottom: 3px !important;
+}
+    .dor .infomas .container.pt-5 .row {
+    justify-content: center;
+    margin: 24px 0;
+}
+    .dor .bene .col-lg-2 {
+    flex: 0 0 43%;
+    margin: 0 3%;
+}
+    .dor .abt.bene .col-lg-2 {
+    flex: 0 0 40%;
+    border: none;
+}
+    .col-lg-12.row.align-items-center {
+    justify-content: center;
+}
+    .dor .infomas .col-lg-3 {
+    flex: auto !important;
+    max-width: 100% !important;
+}
+    .dor .infomas .col-lg-3 > div {
+    margin: 0 !important;
+}
+    .dor div.masd1 p>span {
+    display: inline;
+    position: relative;
+    left: -1px;
+    top: -1px;
+}
+    .dor .infomas .row>.col-lg-8 {
+    padding: 0;
+}
+    .dor .infomas a {
+    position: relative;
+    top: initial;
+    right: initial;
+    display: block;
+    max-width: 230px;
+    margin: auto auto 40px;
+}
+    .dor .infomas .col-lg-8>p {
+    margin: 12px 0 6px;
+}
+    .infomas .col-lg-4 img {
+    width: 100%;
+    max-width: 100%;
+}
+    .dor .container-fluid.py-5.headermas {
+    height: auto;
+}
     div#navbarCollapse {
     border-top: 1px solid #cea366;
     margin-top: 12px;
