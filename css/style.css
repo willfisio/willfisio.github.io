@@ -11310,8 +11310,8 @@ a.agendar {
     margin: 12px 0 6px;
 }
     .infomas .col-lg-4 img {
-    width: 100%;
-    max-width: 100%;
+    width: auto;
+    
 }
     .dor .container-fluid.py-5.headermas {
     height: auto !important;
