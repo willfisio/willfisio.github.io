@@ -676,7 +676,7 @@ a.btnsaiba {
     padding-left: 5px;
 }
 .dor .headermas img {
-    max-width: 350px;
+    max-width: 350px !important;
 }
 .dor .container-fluid.infomas {
     margin-top: 0 !important;
