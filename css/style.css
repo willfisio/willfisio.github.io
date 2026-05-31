@@ -11264,6 +11264,57 @@ a.agendar {
     margin: 2px auto;
     text-align: center;
 }
+    .dren img {
+    max-width: 70px;
+    position: absolute;
+    left: 20px;
+    top: 172px;
+}
+    img.drenmobile {
+    display: block !important;
+    width: 100%;
+    max-height: 100% !important;
+    height: 100% !important;
+    position: relative;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+    transition: none !important;
+    padding: 6px;
+    border-radius: 12px;
+    margin: 0;
+    left: 0;
+    top: 0;
+}
+    .dren h5 {
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 12px;
+}
+    .dren .row>p {
+        position: relative;
+        display: block;
+        color: rgb(33, 30, 28);
+        font-size: 0.8em;
+        max-width: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding: 0 12px;
+    }
+    .dren .row div p {
+    position: relative;
+    left: auto !important;
+    top: auto;
+    display: block;
+    margin: 20px 0 0 40px;
+    max-width: 100%;
+}
     .dor div.masd1 p:first-child {
     margin-bottom: 3px !important;
 }
