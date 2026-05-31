@@ -11314,7 +11314,7 @@ a.agendar {
     max-width: 100%;
 }
     .dor .container-fluid.py-5.headermas {
-    height: auto;
+    height: auto !important;
 }
     div#navbarCollapse {
     border-top: 1px solid #cea366;
