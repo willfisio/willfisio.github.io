@@ -397,6 +397,20 @@ img.drenmob {
     padding: 0 !important;
     border-radius: 0;
 }
+a.btnagendar.btnmasdor {
+    background: #cea366;
+    color: #023224;
+    display: block;
+    width: 212px !important;
+    max-width: 100%;
+    position: absolute;
+    font-weight: 500;
+    top: 87px;
+    right: 21px;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 16px;
+}
     .drenmob {
     display: none;
 }
@@ -11263,6 +11277,12 @@ a.agendar {
   .navbar-light .navbar-nav .nav-link {
     padding: 10px 15px;
   }
+    a.btnagendar.btnmasdor {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin: 40px auto;
+}
     .dren a.btnagendar {
     position: relative;
     left: 0;
