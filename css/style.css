@@ -133,6 +133,7 @@
 .laser div.abterfis .row.col-lg-3 {
     flex: 0 0 23%;
     max-width: 23%;
+    align-content: center;
 }
 .funatend span {
     color: #211E1C;
@@ -218,7 +219,7 @@ div.masd1 p {
 .abterfis p {
     color: rgb(33, 30, 28);
     max-width: 438px;
-    padding: 0 12px;
+    padding: 12px;
     font-size: 0.8em;
 }
 div.abterfis .row.col-lg-3 {
@@ -11054,7 +11055,7 @@ body.bodyfis.laser {
 }
 .laser .treemtxt p {
     color: #211E1C;
-    padding: 0 0 0 24px !important;
+    padding: 0 0 24px 24px !important;
     max-width: 90%;
 }
 .laser .treemtxt img {
