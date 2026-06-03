@@ -10907,6 +10907,10 @@ a.agendarheader:hover {
     max-width: 300px;}
 .testimonials .testi .item .icon {text-align: center;}
 .testimonials .testi .item .icon i {font-size: 32px;color: #FFD832;}
+small, .small {
+    font-size: 80%;
+    font-weight: 400;
+}
 .laser .headermas div>p {
     color: #fff;
     font-size: 0.85em;
